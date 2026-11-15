@@ -31,3 +31,12 @@ These are the places to fill plants that the yearbook does not measure. Do not i
 Older NTCDB pages are also on the Internet Archive when the live site is down. Keep NTCDB figures in their own rows. They do not always match MoALD.
 
 Department of Plant Resources and the Forest Rules govern collection and trade of several medicinal species in `plants.csv`. Check the current rule before using jatamansi, kutki, panchaunle, or yarsagumba in a farm or trade plan.
+
+## Used by the field desk, not copied into the tables
+
+- Open-Meteo elevation, current weather, and the previous year's daily archive. No key. https://open-meteo.com/
+- District boundaries, simplified from Acesmndr/nepal-geojson (MIT): https://github.com/Acesmndr/nepal-geojson
+- Network-address lookup, only when the phone's own location is not used: https://www.geojs.io/ and https://ipwho.is/
+- Map embed: OpenStreetMap
+
+`scripts/build_site_data.py` rebuilds `data/years.csv`, `site/data/years.json`, `site/data/district-crops.json`, and `site/data/districts.geojson` from `data/observations.csv` and the boundary file.

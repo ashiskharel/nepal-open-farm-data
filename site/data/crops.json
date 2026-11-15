@@ -1,0 +1,218 @@
+{
+  "bands_note": "Elevation bands are a guide for this desk. They are not a MoALD zone map. A district total includes land that is higher and lower than the spot you marked.",
+  "chemical_note": "Local chemical: none listed. PQPMC publishes the registered-product book, and a later notice can ban a name that an older book still prints. This desk does not name a product, a dose, a dilution, or a spray day. Take the photo to a technician and read the label.",
+  "symptoms": [
+    {
+      "id": "spots",
+      "label": "Spots on leaves",
+      "ne": "पातमा दाग",
+      "care": "Remove the worst leaves from the bed and do not spread them back as fresh compost. Avoid wetting the foliage late in the day. This is a symptom, not a disease name."
+    },
+    {
+      "id": "powder",
+      "label": "White powder on leaves",
+      "ne": "सेतो धुलो",
+      "care": "Open the plants up so air can move. Remove coated leaves. A homemade spray is not a diagnosis."
+    },
+    {
+      "id": "wilt",
+      "label": "Whole plant wilting",
+      "ne": "ओइलाएको",
+      "care": "Look at the stem where it meets the soil, and check whether the bed is standing in water. Pull one plant and look at the roots. Stop watering a soaked bed."
+    },
+    {
+      "id": "holes",
+      "label": "Holes or chewed leaves",
+      "ne": "पात खाएको",
+      "care": "Look under the leaf in the morning for a caterpillar or a beetle. Hand-pick what you can see. A photo of the insect is more useful than a product name."
+    },
+    {
+      "id": "rot",
+      "label": "Fruit or rhizome rot",
+      "ne": "सडेको",
+      "care": "Take the rotten piece out of the bed. Keep fruit off wet soil, and do not pack sound fruit with rotten fruit."
+    },
+    {
+      "id": "yellow",
+      "label": "Yellow leaves on many plants",
+      "ne": "पहेंलो पात",
+      "care": "Yellowing can be water, a hungry soil, or a root problem. Note whether the veins stay green. A soil test tells you more than a bottle chosen in a shop."
+    }
+  ],
+  "plants": [
+    {
+      "id": "coffee",
+      "en": "Coffee",
+      "ne": "कफी",
+      "scientific": "Coffea arabica",
+      "field": true,
+      "elevation_m": [800, 1600],
+      "care": [
+        "The yearbook figure is green bean, not fresh cherry. The 2081/82 table has no small-farmer column.",
+        "Shade the young bushes, mulch the basin, and keep weeds down. Water in a dry spell rather than leaving the soil bare.",
+        "Pick red cherries. Dry the bean clean, off the soil, before it goes to a pulper or a buyer."
+      ]
+    },
+    {
+      "id": "tea",
+      "en": "Tea",
+      "ne": "चिया",
+      "scientific": "Camellia sinensis",
+      "field": true,
+      "elevation_m": [600, 2100],
+      "care": [
+        "Pluck the young shoot. Hard leaf lowers the lot. Most of the yearbook area is in the eastern hills.",
+        "Keep a drain so water does not stand in the row.",
+        "A blank cell in the tea table was left out of the file. A missing number is not zero."
+      ]
+    },
+    {
+      "id": "large_cardamom",
+      "en": "Large cardamom",
+      "ne": "अलैंची",
+      "scientific": "Amomum subulatum",
+      "field": true,
+      "elevation_m": [800, 2000],
+      "care": [
+        "This is Nepal's अलैंची, Amomum subulatum. It is not green cardamom.",
+        "It wants moist shade. An open hot terrace is a poor site even when the district total is large.",
+        "Cut out dead stems. Dry the capsules after harvest so they do not mould in the sack."
+      ]
+    },
+    {
+      "id": "apple",
+      "en": "Apple",
+      "ne": "स्याउ",
+      "scientific": "Malus domestica",
+      "field": true,
+      "elevation_m": [1800, 3000],
+      "care": [
+        "The large plantings are in the high, cold districts. A warm terrace in the same district is not the same site.",
+        "Hectares include young trees that are not bearing yet. Do not treat the whole area as this year's crop.",
+        "Prune while the tree is dormant. Remove dried fruit so last year's rot is not left in the canopy."
+      ]
+    },
+    {
+      "id": "plum",
+      "en": "Plum",
+      "ne": "आरुबखडा",
+      "scientific": "Prunus salicina",
+      "field": true,
+      "elevation_m": [1000, 2200],
+      "care": [
+        "The yearbook plum column is आरुबखडा. It is not hog plum.",
+        "Thin a heavy crop so limbs do not split. Keep picked fruit off wet ground."
+      ]
+    },
+    {
+      "id": "pear",
+      "en": "Pear",
+      "ne": "नास्पाती",
+      "scientific": "Pyrus communis",
+      "field": true,
+      "elevation_m": [1000, 2300],
+      "care": [
+        "Pear sits in the same winter-fruit table as apple and plum. The yearbook does not print the species.",
+        "Give the tree a dormant prune and remove broken wood after wind."
+      ]
+    },
+    {
+      "id": "walnut",
+      "en": "Walnut",
+      "ne": "ओखर",
+      "scientific": "Juglans regia",
+      "field": true,
+      "elevation_m": [1200, 2700],
+      "care": [
+        "Walnut is a long-lived tree. The hectare figure includes trees that are not in full bearing.",
+        "Keep the ground under the canopy clear at harvest so nuts can be gathered clean."
+      ]
+    },
+    {
+      "id": "peach",
+      "en": "Peach",
+      "ne": "आरू",
+      "scientific": "Prunus persica",
+      "field": true,
+      "elevation_m": [700, 2000],
+      "care": [
+        "Peach, आरू, is a different column from plum, आरुबखडा.",
+        "Thin fruit in a heavy year. Remove mummified fruit during the dormant prune."
+      ]
+    },
+    {
+      "id": "apricot",
+      "en": "Apricot",
+      "ne": "खुर्पानी",
+      "scientific": "Prunus armeniaca",
+      "field": true,
+      "elevation_m": [1400, 2800],
+      "care": [
+        "Apricot in the yearbook is a high-hill fruit, in the same winter-fruit table as apple.",
+        "Dry fruit for storage only after it is fully ripe, and keep it off damp floors."
+      ]
+    },
+    {
+      "id": "ginger",
+      "en": "Ginger",
+      "ne": "अदुवा",
+      "scientific": "Zingiber officinale",
+      "field": true,
+      "elevation_m": [200, 1500],
+      "care": [
+        "Plant sound rhizomes, not pieces that are already soft.",
+        "Mulch and do not let water stand in the furrow. Dry the harvest before it goes into a sack."
+      ]
+    },
+    {
+      "id": "garlic",
+      "en": "Garlic",
+      "ne": "लसुन",
+      "scientific": "Allium sativum",
+      "field": true,
+      "elevation_m": [200, 2500],
+      "care": [
+        "Garlic is in the spice table beside ginger and turmeric.",
+        "Plant individual cloves. Stop watering as the tops fall, and cure the bulbs in the shade before storage."
+      ]
+    },
+    {
+      "id": "turmeric",
+      "en": "Turmeric",
+      "ne": "बेसार",
+      "scientific": "Curcuma longa",
+      "field": true,
+      "elevation_m": [200, 1500],
+      "care": [
+        "Turmeric wants a warm, drained bed and a long season.",
+        "Boil or dry the fingers before storage so they do not rot in the sack."
+      ]
+    },
+    {
+      "id": "dry_chilli",
+      "en": "Dry chilli",
+      "ne": "खुर्सानी",
+      "scientific": "Capsicum spp.",
+      "field": true,
+      "elevation_m": [100, 2000],
+      "care": [
+        "The yearbook column mixes types. Akabare and other chillies are inside it when the district reported them as dry chilli.",
+        "Stake plants that fall over. Dry pods off the soil, out of the rain."
+      ]
+    },
+    {
+      "id": "cultivated_mushroom",
+      "en": "Cultivated mushroom",
+      "ne": "च्याउ",
+      "scientific": "",
+      "field": false,
+      "indoor": true,
+      "elevation_m": [0, 5000],
+      "care": [
+        "This is a room crop. The yearbook series is national and does not split button, oyster, and shiitake.",
+        "Use clean spawn and a substrate that has been heated properly. Keep the room from overheating the bags.",
+        "Do not eat a wild mushroom because it looks like the crop. Wild fungi are not an edibility list."
+      ]
+    }
+  ]
+}

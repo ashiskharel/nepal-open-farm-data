@@ -49,6 +49,10 @@ Machine checks from the extractor. `source_edition_bs` is the yearbook that prod
 
 Yearbooks already merged, with the ministry content page and the PDF URL. `scripts/check_moald.py` compares this file with the MoALD statistics category page.
 
+## data/years.csv
+
+Bikram Sambat fiscal labels beside the AD fiscal labels. `printed_fiscal` rows are the years printed on the yearbook district tables: 2080/81 BS is 2023/24 AD, and 2081/82 BS is 2024/25 AD. `mushroom_series` rows are the years printed in AD on the mushroom table. Their BS pair is the same fiscal year, 57 years on. That pair was not a second column in the mushroom table.
+
 ## data/pesticide_watch.json
 
 Filenames of PQPMC registration lists seen on the progress page. The monthly job opens a GitHub issue when this set changes. It does not fill `pesticides.csv`.

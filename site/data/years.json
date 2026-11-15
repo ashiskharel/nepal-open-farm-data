@@ -1,0 +1,107 @@
+{
+  "rule": "For a Nepal fiscal pair in this repo, the AD year is the BS year minus 57. 2081/82 BS is 2024/25 AD.",
+  "years": [
+    {
+      "bs": "2080/81",
+      "ad": "2023/24",
+      "kind": "printed_fiscal",
+      "note": "Printed on the 2080/81 yearbook and on the district tables copied from it."
+    },
+    {
+      "bs": "2081/82",
+      "ad": "2024/25",
+      "kind": "printed_fiscal",
+      "note": "Printed on the 2081/82 yearbook and on the district tables copied from it."
+    },
+    {
+      "bs": "2067/68",
+      "ad": "2010/11",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2068/69",
+      "ad": "2011/12",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2069/70",
+      "ad": "2012/13",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2070/71",
+      "ad": "2013/14",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2071/72",
+      "ad": "2014/15",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2072/73",
+      "ad": "2015/16",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2073/74",
+      "ad": "2016/17",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2074/75",
+      "ad": "2017/18",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2075/76",
+      "ad": "2018/19",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2076/77",
+      "ad": "2019/20",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2077/78",
+      "ad": "2020/21",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2078/79",
+      "ad": "2021/22",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2079/80",
+      "ad": "2022/23",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2080/81",
+      "ad": "2023/24",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    },
+    {
+      "bs": "2081/82",
+      "ad": "2024/25",
+      "kind": "mushroom_series",
+      "note": "The mushroom table prints the AD fiscal year. The BS pair is the same fiscal year, 57 years on."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robotics — soon to be published</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%238d3b16' width='16' height='16' rx='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <a class="skip" href="#machines">Skip to the machines</a>
+  <header>
+    <p class="stamp">Soon to be published</p>
+    <h1>Robotics</h1>
+    <p class="lede">No machine is attached. Nothing on this page can move, spray, or open a valve. Pictures shown here are the ones saved on this phone.</p>
+    <nav>
+      <a href="./index.html">Land and crops</a>
+      <a href="./robotics.html">Robotics</a>
+    </nav>
+  </header>
+  <main id="machines">
+    <article class="machine">
+      <h2>Bed post · not attached</h2>
+      <svg viewBox="0 0 320 140" role="img" aria-label="A post with a camera above a bed, not connected">
+        <rect x="20" y="90" width="280" height="28" fill="#c4b296"/>
+        <rect x="150" y="28" width="10" height="70" fill="#5c5348"/>
+        <rect x="128" y="18" width="54" height="28" rx="4" fill="#1a1814"/>
+        <circle cx="155" cy="32" r="6" fill="#f3ecdf"/>
+        <text x="20" y="24" fill="#8d3b16" font-size="16" font-family="sans-serif">Not attached</text>
+      </svg>
+      <p>A fixed camera over one bed. It is not on the farm, and this page cannot turn it on.</p>
+    </article>
+    <article class="machine">
+      <h2>Path cart · not attached</h2>
+      <svg viewBox="0 0 320 140" role="img" aria-label="A small cart on a path, not connected">
+        <rect x="20" y="100" width="280" height="16" fill="#8d7b62"/>
+        <rect x="90" y="58" width="140" height="42" rx="6" fill="#1d6b3a"/>
+        <circle cx="120" cy="108" r="12" fill="#1a1814"/>
+        <circle cx="200" cy="108" r="12" fill="#1a1814"/>
+        <text x="20" y="28" fill="#8d3b16" font-size="16" font-family="sans-serif">Not attached</text>
+      </svg>
+      <p>A small cart that would follow the path between beds. No cart has been chosen, and none is connected.</p>
+    </article>
+    <article class="machine">
+      <h2>Water valve · not attached</h2>
+      <svg viewBox="0 0 320 140" role="img" aria-label="A closed tap, not connected">
+        <rect x="70" y="70" width="180" height="14" fill="#5c5348"/>
+        <rect x="148" y="30" width="16" height="50" fill="#8d3b16"/>
+        <rect x="132" y="22" width="48" height="14" rx="4" fill="#1a1814"/>
+        <text x="20" y="120" fill="#8d3b16" font-size="16" font-family="sans-serif">Not attached</text>
+      </svg>
+      <p>A tap the desk must not open. Watering stays a job for a person on the farm.</p>
+    </article>
+
+    <section>
+      <h2>What is required before a machine</h2>
+      <ul id="requirements"></ul>
+      <label class="check">
+        <input id="can-stop" type="checkbox">
+        A person on this farm can stop a machine by hand.
+      </label>
+    </section>
+
+    <section>
+      <h2>Pictures on this phone</h2>
+      <p id="photo-count"></p>
+      <div id="gallery"></div>
+      <p><a href="./index.html#photo-form">Add pictures on the field desk</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>Soon to be published. The field desk can be used now. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
+  </footer>
+  <script type="module" src="./js/robotics.js"></script>
+</body>
+</html>

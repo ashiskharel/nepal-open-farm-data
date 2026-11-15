@@ -1,0 +1,152 @@
+:root {
+  --ink: #1a1814;
+  --muted: #5c5348;
+  --paper: #f3ecdf;
+  --card: #fffaf3;
+  --line: #d9cbb6;
+  --green: #1d6b3a;
+  --green-dark: #114627;
+  --clay: #8d3b16;
+  --ready: #1d6b3a;
+  --needed: #8d3b16;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Nirmala UI", "Noto Sans Devanagari", "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+a { color: var(--green-dark); }
+
+.skip {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  background: #fff;
+  padding: 0.4rem 0.6rem;
+}
+
+.skip:focus { top: 0.5rem; }
+
+header, main, footer { padding: 1rem; }
+
+header {
+  background: var(--green-dark);
+  color: #f6f1e6;
+}
+
+header a { color: #f6f1e6; }
+
+nav { display: flex; gap: 1rem; margin-top: 0.6rem; }
+
+nav a { font-weight: 700; }
+
+h1 { font-size: 1.7rem; line-height: 1.15; margin: 0 0 0.4rem; }
+
+h2 { font-size: 1.3rem; margin: 0 0 0.6rem; }
+
+h3 { margin: 0 0 0.3rem; }
+
+.lede, .note, .latin { color: var(--muted); }
+
+header .lede { color: #e7dece; }
+
+.stamp {
+  display: inline-block;
+  margin: 0.4rem 0;
+  border: 3px solid currentColor;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+}
+
+.actions, .grid { display: grid; gap: 0.7rem; }
+
+.actions { grid-template-columns: 1fr; }
+
+@media (min-width: 720px) {
+  .actions { grid-template-columns: 1fr 1fr; }
+  main { max-width: 52rem; margin: 0 auto; }
+  header, footer { padding-left: max(1rem, calc(50vw - 26rem)); padding-right: max(1rem, calc(50vw - 26rem)); }
+}
+
+button, .file input, select, input, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: var(--green);
+  color: #fff;
+  border: 0;
+  border-radius: 0.4rem;
+  min-height: 3rem;
+  padding: 0.6rem 0.8rem;
+  font-weight: 700;
+}
+
+button.secondary { background: var(--clay); }
+
+label { display: grid; gap: 0.25rem; font-weight: 700; }
+
+input, select, textarea {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: #fff;
+  font-weight: 400;
+}
+
+textarea { min-height: 5rem; }
+
+fieldset {
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--card);
+}
+
+.check { font-weight: 400; grid-template-columns: auto 1fr; align-items: start; margin: 0.35rem 0; }
+
+.check input { width: auto; min-height: auto; margin-top: 0.3rem; }
+
+.card, .photo-card, #place-card, #climate-card, .machine {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.stat { display: flex; justify-content: space-between; gap: 1rem; padding: 0.25rem 0; border-bottom: 1px solid var(--line); }
+
+.stat-label { color: var(--muted); font-weight: 400; }
+
+#status {
+  background: #fff;
+  border-left: 4px solid var(--green);
+  padding: 0.7rem 0.8rem;
+  margin: 0.8rem 0;
+}
+
+iframe { width: 100%; height: 16rem; border: 1px solid var(--line); border-radius: 0.5rem; background: #ddd; }
+
+.photo-card img { width: 100%; border-radius: 0.3rem; }
+
+.machine svg { width: 100%; height: auto; background: #efe6d6; border-radius: 0.4rem; }
+
+.ready { color: var(--ready); }
+
+.needed { color: var(--needed); }
+
+footer { color: var(--muted); font-size: 0.95rem; }
+
+#year-table { padding-left: 1.1rem; }

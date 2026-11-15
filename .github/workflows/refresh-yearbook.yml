@@ -33,7 +33,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="data-${{ steps.refresh.outputs.edition }}"
           git checkout -B "$branch"
-          git add data docs
+          python scripts/build_site_data.py || echo "Field desk files were not rebuilt."
+          git add data docs site/data
           git diff --cached --quiet && exit 0
           git commit -m "Update MoALD statistics ${{ steps.refresh.outputs.edition }}"
           git push --set-upstream origin "$branch"

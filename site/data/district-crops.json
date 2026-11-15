@@ -1,0 +1,7863 @@
+{
+  "current": {
+    "bs": "2081/82",
+    "ad": "2024/25"
+  },
+  "previous": {
+    "bs": "2080/81",
+    "ad": "2023/24"
+  },
+  "national": {
+    "current": {
+      "dry_chilli": {
+        "area_ha": 7425,
+        "production": 29539,
+        "production_unit": "mt"
+      },
+      "garlic": {
+        "area_ha": 9123,
+        "production": 74274,
+        "production_unit": "mt"
+      },
+      "ginger": {
+        "area_ha": 22119,
+        "production": 287991,
+        "production_unit": "mt"
+      },
+      "large_cardamom": {
+        "area_ha": 18470,
+        "production": 8357,
+        "production_unit": "mt"
+      },
+      "turmeric": {
+        "area_ha": 9448,
+        "production": 95396,
+        "production_unit": "mt"
+      },
+      "coffee": {
+        "area_ha": 5501.05,
+        "production": 642.08,
+        "production_unit": "mt"
+      },
+      "tea": {
+        "area_ha": 20602,
+        "production": 26123111,
+        "production_unit": "kg"
+      },
+      "apple": {
+        "area_ha": 12933,
+        "production": 59949,
+        "production_unit": "mt"
+      },
+      "apricot": {
+        "area_ha": 415,
+        "production": 1846,
+        "production_unit": "mt"
+      },
+      "peach": {
+        "area_ha": 1907,
+        "production": 9833,
+        "production_unit": "mt"
+      },
+      "pear": {
+        "area_ha": 3367,
+        "production": 25904,
+        "production_unit": "mt"
+      },
+      "plum": {
+        "area_ha": 1606,
+        "production": 7939,
+        "production_unit": "mt"
+      },
+      "walnut": {
+        "area_ha": 5273,
+        "production": 9366,
+        "production_unit": "mt"
+      }
+    },
+    "previous": {
+      "dry_chilli": {
+        "area_ha": 8382,
+        "production": 45860,
+        "production_unit": "mt"
+      },
+      "garlic": {
+        "area_ha": 9558,
+        "production": 72359,
+        "production_unit": "mt"
+      },
+      "ginger": {
+        "area_ha": 22430,
+        "production": 289330,
+        "production_unit": "mt"
+      },
+      "large_cardamom": {
+        "area_ha": 18983,
+        "production": 8808,
+        "production_unit": "mt"
+      },
+      "turmeric": {
+        "area_ha": 8807,
+        "production": 89840,
+        "production_unit": "mt"
+      },
+      "coffee": {
+        "area_ha": 4305,
+        "production": 501.3,
+        "production_unit": "mt",
+        "small_farmers": 31389
+      },
+      "tea": {
+        "area_ha": 20760.23,
+        "production": 26983175,
+        "production_unit": "kg"
+      },
+      "apple": {
+        "area_ha": 12492,
+        "production": 54506,
+        "production_unit": "mt"
+      },
+      "apricot": {
+        "area_ha": 388,
+        "production": 1715,
+        "production_unit": "mt"
+      },
+      "peach": {
+        "area_ha": 1893,
+        "production": 10210,
+        "production_unit": "mt"
+      },
+      "pear": {
+        "area_ha": 3466,
+        "production": 27060,
+        "production_unit": "mt"
+      },
+      "plum": {
+        "area_ha": 1918,
+        "production": 8302,
+        "production_unit": "mt"
+      },
+      "walnut": {
+        "area_ha": 5399,
+        "production": 13311,
+        "production_unit": "mt"
+      }
+    }
+  },
+  "mushroom": [
+    {
+      "ad": "2010/11",
+      "bs": "2067/68",
+      "printed": "ad",
+      "fresh_mt": 1530
+    },
+    {
+      "ad": "2011/12",
+      "bs": "2068/69",
+      "printed": "ad",
+      "fresh_mt": 1530
+    },
+    {
+      "ad": "2012/13",
+      "bs": "2069/70",
+      "printed": "ad",
+      "fresh_mt": 1650
+    },
+    {
+      "ad": "2013/14",
+      "bs": "2070/71",
+      "printed": "ad",
+      "fresh_mt": 1900
+    },
+    {
+      "ad": "2014/15",
+      "bs": "2071/72",
+      "printed": "ad",
+      "fresh_mt": 2700
+    },
+    {
+      "ad": "2015/16",
+      "bs": "2072/73",
+      "printed": "ad",
+      "fresh_mt": 9300
+    },
+    {
+      "ad": "2016/17",
+      "bs": "2073/74",
+      "printed": "ad",
+      "fresh_mt": 10850
+    },
+    {
+      "ad": "2017/18",
+      "bs": "2074/75",
+      "printed": "ad",
+      "fresh_mt": 10500
+    },
+    {
+      "ad": "2018/19",
+      "bs": "2075/76",
+      "printed": "ad",
+      "fresh_mt": 11255
+    },
+    {
+      "ad": "2019/20",
+      "bs": "2076/77",
+      "printed": "ad",
+      "fresh_mt": 12607
+    },
+    {
+      "ad": "2020/21",
+      "bs": "2077/78",
+      "printed": "ad",
+      "fresh_mt": 13241
+    },
+    {
+      "ad": "2021/22",
+      "bs": "2078/79",
+      "printed": "ad",
+      "fresh_mt": 14300
+    },
+    {
+      "ad": "2022/23",
+      "bs": "2079/80",
+      "printed": "ad",
+      "fresh_mt": 15117
+    },
+    {
+      "ad": "2023/24",
+      "bs": "2080/81",
+      "printed": "ad",
+      "fresh_mt": 18000
+    },
+    {
+      "ad": "2024/25",
+      "bs": "2081/82",
+      "printed": "ad",
+      "fresh_mt": 25392
+    }
+  ],
+  "districts": {
+    "ACHHAM": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 24,
+          "production": 129,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 22,
+          "production": 76,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 23,
+          "production": 211,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 6,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 65,
+          "production": 576,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 13,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 49,
+          "production": 170,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 77,
+          "production": 472,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 9,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 178,
+          "production": 213,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 24,
+          "production": 129,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 18,
+          "production": 153,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 23,
+          "production": 232,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 4,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 41,
+          "production": 482,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 11,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 48,
+          "production": 164,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 78,
+          "production": 618,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 9,
+          "production": 37,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 250,
+          "production": 582,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "ARGHAKHANCHI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 4.5,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 149,
+          "production": 1256,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 305,
+          "production": 3610,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 14,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 213,
+          "production": 2306,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 154,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 30
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 10,
+          "production": 49,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 115,
+          "production": 621,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 52,
+          "production": 379,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 43,
+          "production": 66,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 132,
+          "production": 1088,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 326,
+          "production": 3850,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 21,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 151,
+          "production": 1630,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 148.5,
+          "production": 19.75,
+          "production_unit": "mt",
+          "small_farmers": 1705
+        },
+        "tea": {
+          "area_ha": 30
+        },
+        "apricot": {
+          "area_ha": 6,
+          "production": 22,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 10,
+          "production": 68,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 115,
+          "production": 520,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 63,
+          "production": 363,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 66,
+          "production": 57,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BAGLUNG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 51,
+          "production": 281,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 70,
+          "production": 483,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 86,
+          "production": 1404,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 149,
+          "production": 45.12,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 64,
+          "production": 672,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 58,
+          "production": 9,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 17,
+          "production": 50,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 84,
+          "production": 360,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 10,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 17,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 35,
+          "production": 140,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 102,
+          "production": 470,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 80,
+          "production": 239,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 51,
+          "production": 383,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 74,
+          "production": 511,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 86,
+          "production": 1404,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 140,
+          "production": 48.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 74,
+          "production": 814,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 60.25,
+          "production": 10,
+          "production_unit": "mt",
+          "small_farmers": 865
+        },
+        "tea": {
+          "area_ha": 8,
+          "production": 500,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 80,
+          "production": 310,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 10,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 17,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 35,
+          "production": 140,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 102,
+          "production": 470,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 80,
+          "production": 239,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BAITADI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 32,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 78,
+          "production": 386,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 73,
+          "production": 531,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 612,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 7,
+          "production": 0.04,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 19,
+          "production": 74,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 16,
+          "production": 85,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 62,
+          "production": 385,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 18,
+          "production": 120,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 45,
+          "production": 260,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 500,
+          "production": 721,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 32,
+          "production": 179,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 68,
+          "production": 541,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 70,
+          "production": 655,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 65,
+          "production": 640,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 19,
+          "production": 74,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 16,
+          "production": 85,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 62,
+          "production": 385,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 18,
+          "production": 120,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 45,
+          "production": 198,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 500,
+          "production": 2121,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BAJHANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 40,
+          "production": 209,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 48,
+          "production": 538,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 48,
+          "production": 480,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 40,
+          "production": 480,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 100,
+          "production": 380,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 9,
+          "production": 47,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 19,
+          "production": 80,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 165,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 25,
+          "production": 156,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 115,
+          "production": 299,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 28,
+          "production": 162,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 48,
+          "production": 390,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 43,
+          "production": 452,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 35,
+          "production": 385,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 115,
+          "production": 430,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 13,
+          "production": 99,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 19,
+          "production": 128,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 50,
+          "production": 420,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 25,
+          "production": 194,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 115,
+          "production": 510,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BAJURA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 40,
+          "production": 21,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 37,
+          "production": 303,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 55,
+          "production": 670,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 35,
+          "production": 423,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 425,
+          "production": 1600,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 98,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 35,
+          "production": 245,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 5,
+          "production": 35,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 345,
+          "production": 70,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 15,
+          "production": 86,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 35,
+          "production": 277,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 42,
+          "production": 504,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 7,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 960,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 380,
+          "production": 1901,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 124,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 32,
+          "production": 336,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 10,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 300,
+          "production": 1015,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BANKE": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 89,
+          "production": 71,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 175,
+          "production": 1558,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 21,
+          "production": 245,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 843,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 171,
+          "production": 295,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 172,
+          "production": 1535,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 30,
+          "production": 348,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 108,
+          "production": 1135,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BARA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 126,
+          "production": 468,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 238,
+          "production": 1826,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 68,
+          "production": 783,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 93,
+          "production": 1188,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 125,
+          "production": 719,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 225,
+          "production": 1692,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 70,
+          "production": 777,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 95,
+          "production": 1174,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BARDIYA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 199,
+          "production": 199,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 336,
+          "production": 3058,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 121,
+          "production": 1406,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 206,
+          "production": 2377,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 3,
+          "production": 35,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 254,
+          "production": 266,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 322,
+          "production": 2916,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 155,
+          "production": 1783,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 190,
+          "production": 2318,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 8,
+          "production": 81,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BHAKTAPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 37,
+          "production": 160,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 10,
+          "production": 110,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 12,
+          "production": 385,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 10,
+          "production": 116,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 8,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 9,
+          "production": 96,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 7,
+          "production": 30,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 37,
+          "production": 160,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 40,
+          "production": 320,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 77,
+          "production": 910,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 21,
+          "production": 254,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 8,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 11,
+          "production": 96,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 7,
+          "production": 30,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "BHOJPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 31,
+          "production": 38,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 21,
+          "production": 126,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 199,
+          "production": 2388,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 708,
+          "production": 245,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 37,
+          "production": 284,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 28,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 177,
+          "production": 120020,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 5,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 5,
+          "production": 35,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 35,
+          "production": 275,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 5,
+          "production": 27,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 11,
+          "production": 15,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 30,
+          "production": 187,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 20,
+          "production": 121,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 203,
+          "production": 2446,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 723,
+          "production": 279,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 38,
+          "production": 293,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 22.5,
+          "production": 0.919,
+          "production_unit": "mt",
+          "small_farmers": 188
+        },
+        "tea": {
+          "area_ha": 115,
+          "production": 4700,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 6,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 5,
+          "production": 35,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 35,
+          "production": 273,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 5,
+          "production": 25,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 15,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "CHITWAN": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 143,
+          "production": 621,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 145,
+          "production": 728,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 181,
+          "production": 1856,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 75,
+          "production": 878,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 37,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 1
+        },
+        "pear": {
+          "area_ha": 15,
+          "production": 55,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 143,
+          "production": 621,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 145,
+          "production": 728,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 181,
+          "production": 1856,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 75,
+          "production": 878,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 12.4,
+          "production": 0.343,
+          "production_unit": "mt",
+          "small_farmers": 30
+        },
+        "tea": {
+          "area_ha": 1
+        },
+        "pear": {
+          "area_ha": 15,
+          "production": 56,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DADELDHURA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 18,
+          "production": 63,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 33,
+          "production": 320,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 65,
+          "production": 780,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 32,
+          "production": 560,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 5,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 100,
+          "production": 190,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 64,
+          "production": 258,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 36,
+          "production": 130,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 245,
+          "production": 1000,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 17,
+          "production": 114,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 32,
+          "production": 288,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 50,
+          "production": 756,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 25,
+          "production": 283,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 4,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 14,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 100,
+          "production": 461,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 64,
+          "production": 475,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 36,
+          "production": 242,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 240,
+          "production": 858,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DAILEKH": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 144,
+          "production": 325,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 165,
+          "production": 1120,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 198,
+          "production": 2566,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 24,
+          "production": 14,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 205,
+          "production": 2343,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 4.5,
+          "production": 0.1,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 43,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 20,
+          "production": 66,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 51,
+          "production": 250,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 61,
+          "production": 296,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 30,
+          "production": 149,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 188,
+          "production": 305,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 146,
+          "production": 330,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 165,
+          "production": 1120,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 198,
+          "production": 2566,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 23,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 205,
+          "production": 2343,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 3.05,
+          "production": 0.0112,
+          "production_unit": "mt",
+          "small_farmers": 30
+        },
+        "apple": {
+          "area_ha": 15,
+          "production": 35,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 20,
+          "production": 66,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 51,
+          "production": 250,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 65,
+          "production": 296,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 30,
+          "production": 149,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 187,
+          "production": 305,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 34,
+          "production": 39,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 717,
+          "production": 5424,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 312,
+          "production": 4270,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 282,
+          "production": 3540,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 5,
+          "production": 54,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 98,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 530,
+          "production": 3233,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 258,
+          "production": 3412,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 175,
+          "production": 2260,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 3,
+          "production": 19,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DARCHULA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 67,
+          "production": 120,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 70,
+          "production": 493,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 100,
+          "production": 1260,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 55,
+          "production": 447,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 220,
+          "production": 1570,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 27,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 38,
+          "production": 250,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 26,
+          "production": 290,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 170,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 190,
+          "production": 920,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 21,
+          "production": 121,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 46,
+          "production": 343,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 108,
+          "production": 1400,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 44,
+          "production": 481,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 205,
+          "production": 1342,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 25,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 38,
+          "production": 255,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 25,
+          "production": 271,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 167,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 182,
+          "production": 865,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DHADING": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 160,
+          "production": 784,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 95,
+          "production": 475,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 245,
+          "production": 3214,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 28,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 45,
+          "production": 388,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 253,
+          "production": 20.7,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 15,
+          "production": 54,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 43,
+          "production": 136,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 243,
+          "production": 2260,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 180,
+          "production": 882,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 70,
+          "production": 315,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 235,
+          "production": 2350,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 32,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 37,
+          "production": 319,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 130.5,
+          "production": 20.2,
+          "production_unit": "mt",
+          "small_farmers": 305
+        },
+        "peach": {
+          "area_ha": 43,
+          "production": 153,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 263,
+          "production": 2466,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DHANKUTA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 12,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 66,
+          "production": 478,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 246,
+          "production": 4585,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 280,
+          "production": 40,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 82,
+          "production": 883,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 491,
+          "production": 8.5,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 381,
+          "production": 39796,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 5,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 39,
+          "production": 300,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 201,
+          "production": 1798,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 27,
+          "production": 132,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 21,
+          "production": 48,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 10,
+          "production": 55,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 66,
+          "production": 477,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 248,
+          "production": 4567,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 276,
+          "production": 40,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 82,
+          "production": 863,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 339.5,
+          "production": 14.8,
+          "production_unit": "mt",
+          "small_farmers": 535
+        },
+        "tea": {
+          "area_ha": 381,
+          "production": 35500,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 7,
+          "production": 22,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 40,
+          "production": 297,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 203,
+          "production": 1937,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 28,
+          "production": 126,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 22,
+          "production": 47,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DHANUSA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 288,
+          "production": 1132,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 81,
+          "production": 773,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 54,
+          "production": 680,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 131,
+          "production": 1254,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 280,
+          "production": 1772,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 80,
+          "production": 760,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 55,
+          "production": 675,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 131,
+          "production": 1251,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DOLAKHA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 45,
+          "production": 215,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 24,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 51,
+          "production": 620,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 677,
+          "production": 168,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 12,
+          "production": 153,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 51,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 21,
+          "production": 78,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 2,
+          "production": 22,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 263,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 39,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 45,
+          "production": 205,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 23,
+          "production": 184,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 51,
+          "production": 616,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 676,
+          "production": 168,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 12,
+          "production": 152,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 42.7,
+          "production": 2.5,
+          "production_unit": "mt",
+          "small_farmers": 150
+        },
+        "tea": {
+          "area_ha": 21,
+          "production": 85,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 2,
+          "production": 22,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 259,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 39,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DOLPA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 31,
+          "production": 167,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 37,
+          "production": 222,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 4,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 1239,
+          "production": 4308,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 11,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 95,
+          "production": 450,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 65,
+          "production": 390,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 572,
+          "production": 631,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 20,
+          "production": 120,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 4,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 1255,
+          "production": 3995,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 11,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 102,
+          "production": 450,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 65,
+          "production": 390,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 575,
+          "production": 646,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "DOTI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 230,
+          "production": 729,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 190,
+          "production": 1425,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 875,
+          "production": 14263,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 202,
+          "production": 2626,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2.6,
+          "production": 0.05,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 79,
+          "production": 228,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 16,
+          "production": 103,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 44,
+          "production": 236,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 58,
+          "production": 315,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 25,
+          "production": 110,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 303,
+          "production": 672,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 130,
+          "production": 802,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 130,
+          "production": 1040,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 730,
+          "production": 11519,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 68,
+          "production": 783,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2.3,
+          "small_farmers": 10
+        },
+        "apple": {
+          "area_ha": 78,
+          "production": 228,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 16,
+          "production": 103,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 44,
+          "production": 236,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 58,
+          "production": 353,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 25,
+          "production": 110,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 303,
+          "production": 1040,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "EASTERN RUKUM": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 59,
+          "production": 108,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 200,
+          "production": 1827,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 34,
+          "production": 439,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 15,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 69,
+          "production": 522,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2.4,
+          "production": 0.24,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 521,
+          "production": 3010,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 2,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 25,
+          "production": 127,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 9,
+          "production": 85,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 30,
+          "production": 191,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 252,
+          "production": 177,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 59,
+          "production": 108,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 195,
+          "production": 1865,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 34,
+          "production": 431,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 14,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 68,
+          "production": 474,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 1.8,
+          "small_farmers": 12
+        },
+        "apple": {
+          "area_ha": 515,
+          "production": 2871,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 1,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 25,
+          "production": 140,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 9,
+          "production": 81,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 30,
+          "production": 179,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 252,
+          "production": 157,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "GORKHA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 63,
+          "production": 305,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 307,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 135,
+          "production": 1585,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 208,
+          "production": 87.75,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 31,
+          "production": 423,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 182,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 3
+        },
+        "apple": {
+          "area_ha": 67,
+          "production": 243,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 63,
+          "production": 305,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 307,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 121,
+          "production": 1420,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 208,
+          "production": 85.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 31,
+          "production": 423,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 156.9,
+          "production": 16,
+          "production_unit": "mt",
+          "small_farmers": 935
+        },
+        "tea": {
+          "area_ha": 2
+        },
+        "apple": {
+          "area_ha": 61,
+          "production": 150,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "GULMI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 41.75,
+          "production": 42,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 54,
+          "production": 446,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 338,
+          "production": 3840,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 12,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 121,
+          "production": 1337,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 335,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 1.9,
+          "production": 0,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 20,
+          "production": 80,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 34,
+          "production": 153,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 59,
+          "production": 422,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 46,
+          "production": 198,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 72,
+          "production": 51,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 23,
+          "production": 68,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 45,
+          "production": 329,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 370,
+          "production": 4218,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 125,
+          "production": 1406,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 304.8,
+          "production": 40.251,
+          "production_unit": "mt",
+          "small_farmers": 1965
+        },
+        "tea": {
+          "area_ha": 0
+        },
+        "peach": {
+          "area_ha": 43,
+          "production": 237,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 57,
+          "production": 442,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 47,
+          "production": 206,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 80,
+          "production": 31,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "HUMLA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 77,
+          "production": 400,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 350,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 29,
+          "production": 86,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 2717,
+          "production": 5252,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 3,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 9,
+          "production": 31,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 14,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 46,
+          "production": 100,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 77,
+          "production": 400,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 350,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 29,
+          "production": 231,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 2765,
+          "production": 5252,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 9,
+          "production": 31,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 15,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 50,
+          "production": 95,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "ILAM": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 2,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 65,
+          "production": 618,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 2611,
+          "production": 35718,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1691,
+          "production": 1159,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 124,
+          "production": 1297,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 345,
+          "production": 83,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 7309,
+          "production": 6291373,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 4,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 60,
+          "production": 460,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 64,
+          "production": 493,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 34,
+          "production": 247,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 45,
+          "production": 60,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 17,
+          "production": 104,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 65,
+          "production": 618,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 2622,
+          "production": 35869,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1690,
+          "production": 1159,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 123,
+          "production": 1501,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 311,
+          "production": 30.524,
+          "production_unit": "mt",
+          "small_farmers": 2017
+        },
+        "tea": {
+          "area_ha": 7309,
+          "production": 6744670,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 5,
+          "production": 21,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 60,
+          "production": 460,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 65,
+          "production": 510,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 35,
+          "production": 266,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 45,
+          "production": 60,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "JAJARKOT": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 30,
+          "production": 165,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 120,
+          "production": 346,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 50,
+          "production": 440,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 25,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 98,
+          "production": 853,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 11.5,
+          "production": 0.6,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 116,
+          "production": 450,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 17,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 1,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 6,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 42,
+          "production": 209,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 157,
+          "production": 178,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 30,
+          "production": 165,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 120,
+          "production": 826,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 50,
+          "production": 440,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 15,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 100,
+          "production": 870,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 8.5,
+          "production": 0.046,
+          "production_unit": "mt",
+          "small_farmers": 75
+        },
+        "apple": {
+          "area_ha": 100,
+          "production": 450,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 17,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 6,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 297,
+          "production": 209,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 190,
+          "production": 710,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "JHAPA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 22,
+          "production": 39,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 26,
+          "production": 214,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 368,
+          "production": 4802,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 233,
+          "production": 1878,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 10340,
+          "production": 19566795,
+          "production_unit": "kg"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 144,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 25,
+          "production": 206,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 368,
+          "production": 4806,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 230,
+          "production": 1856,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 10678,
+          "production": 20100000,
+          "production_unit": "kg"
+        }
+      }
+    },
+    "JUMLA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 75,
+          "production": 225,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 55,
+          "production": 330,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 25,
+          "production": 201,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 28,
+          "production": 252,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 3197,
+          "production": 14956,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 52,
+          "production": 179,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 25,
+          "production": 150,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 9,
+          "production": 50,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 88,
+          "production": 312,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 400,
+          "production": 1000,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 75,
+          "production": 225,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 55,
+          "production": 330,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 25,
+          "production": 201,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 30,
+          "production": 300,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 3285,
+          "production": 13594,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 52,
+          "production": 179,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 25,
+          "production": 150,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 10,
+          "production": 50,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 88,
+          "production": 312,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 410,
+          "production": 1113,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KAILALI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 120,
+          "production": 289,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 550,
+          "production": 4950,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 212,
+          "production": 2714,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 410,
+          "production": 4707,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2,
+          "production": 0,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 50,
+          "production": 245,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 31,
+          "production": 212,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 695,
+          "production": 4962,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 1211,
+          "production": 11868,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 182,
+          "production": 2510,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 790,
+          "production": 9061,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2,
+          "small_farmers": 5
+        },
+        "peach": {
+          "area_ha": 42,
+          "production": 224,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 31,
+          "production": 260,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KALIKOT": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 191,
+          "production": 584,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 80,
+          "production": 509,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 71,
+          "production": 923,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 7,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 36,
+          "production": 480,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 10,
+          "production": 0,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 967,
+          "production": 5958,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 23,
+          "production": 93,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 147,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 38,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 52,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 340,
+          "production": 686,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 194,
+          "production": 599,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 80,
+          "production": 509,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 71,
+          "production": 923,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 7,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 36,
+          "production": 480,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 10
+        },
+        "apple": {
+          "area_ha": 975,
+          "production": 5958,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 25,
+          "production": 93,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 147,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 52,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 342,
+          "production": 812,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KANCHANPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 131,
+          "production": 668,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 90,
+          "production": 990,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 107,
+          "production": 888,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 181,
+          "production": 2082,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 128,
+          "production": 851,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 118,
+          "production": 1147,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 50,
+          "production": 665,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 155,
+          "production": 1783,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KAPILVASTU": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 199,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 276,
+          "production": 2125,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 13,
+          "production": 129,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 0
+        },
+        "turmeric": {
+          "area_ha": 170,
+          "production": 1729,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 213,
+          "production": 483,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 270,
+          "production": 1940,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 126,
+          "production": 1234,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 165,
+          "production": 1655,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KASKI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 42,
+          "production": 227,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 170,
+          "production": 935,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 599,
+          "production": 7599,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 251,
+          "production": 109.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 45,
+          "production": 589,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 212,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 83,
+          "production": 2200,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 8,
+          "production": 48,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 4,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 31,
+          "production": 201,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 15,
+          "production": 100,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 5,
+          "production": 22,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 132,
+          "production": 720,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 184,
+          "production": 1095,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 649,
+          "production": 8246,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 252,
+          "production": 109.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 46,
+          "production": 588,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 201.5,
+          "production": 22,
+          "production_unit": "mt",
+          "small_farmers": 4305
+        },
+        "tea": {
+          "area_ha": 81,
+          "production": 15000,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 8,
+          "production": 48,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 4,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 30,
+          "production": 201,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 15,
+          "production": 102,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 7,
+          "production": 22,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KATHMANDU": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 28,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 5,
+          "production": 42,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 30,
+          "production": 356,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 5,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 54,
+          "production": 277,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 156,
+          "production": 1931,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 71,
+          "production": 320,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 38,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 5,
+          "production": 42,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 30,
+          "production": 356,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 5,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 8,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 54,
+          "production": 277,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 156,
+          "production": 1775,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 71,
+          "production": 320,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KAVREPALANCHOWK": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 587,
+          "production": 2971,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 565,
+          "production": 4656,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 85,
+          "production": 815,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 71,
+          "production": 19,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 48,
+          "production": 508,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 497,
+          "production": 121,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 5
+        },
+        "peach": {
+          "area_ha": 70
+        },
+        "pear": {
+          "area_ha": 49,
+          "production": 448,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 38,
+          "production": 229,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 10,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 579,
+          "production": 3283,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 557,
+          "production": 4640,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 85,
+          "production": 814,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 71,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 45,
+          "production": 504,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 342,
+          "production": 74.4,
+          "production_unit": "mt",
+          "small_farmers": 3150
+        },
+        "tea": {
+          "area_ha": 5
+        },
+        "peach": {
+          "area_ha": 70,
+          "production": 519,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 49,
+          "production": 448,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 38,
+          "production": 229,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 10,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "KHOTANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 46,
+          "production": 364,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 218,
+          "production": 1760,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1125,
+          "production": 358,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 48,
+          "production": 477,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 66.5,
+          "production": 1.5,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 40
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 50,
+          "production": 234,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 209,
+          "production": 1716,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 51,
+          "production": 139,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 51,
+          "production": 125,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 46,
+          "production": 364,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 220,
+          "production": 1775,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1402,
+          "production": 596,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 48,
+          "production": 476,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 63,
+          "production": 0.919,
+          "production_unit": "mt",
+          "small_farmers": 255
+        },
+        "tea": {
+          "area_ha": 40
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 50,
+          "production": 235,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 209,
+          "production": 1716,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 51,
+          "production": 138,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 51,
+          "production": 130,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "LALITPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 16,
+          "production": 83,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 11,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 125,
+          "production": 1428,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 11,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 12,
+          "production": 157,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 122,
+          "production": 16,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 32
+        },
+        "peach": {
+          "area_ha": 53,
+          "production": 550,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 158,
+          "production": 1540,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 16,
+          "production": 99,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 11,
+          "production": 120,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 127,
+          "production": 1450,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 11,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 12,
+          "production": 157,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 119.8,
+          "production": 12.8,
+          "production_unit": "mt",
+          "small_farmers": 1125
+        },
+        "tea": {
+          "area_ha": 32,
+          "production": 2200,
+          "production_unit": "kg"
+        },
+        "peach": {
+          "area_ha": 53,
+          "production": 286,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 158,
+          "production": 1485,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "LAMJUNG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 18,
+          "production": 91,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 66,
+          "production": 535,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 268,
+          "production": 2750,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 950,
+          "production": 305.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 854,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 377,
+          "production": 33,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 50,
+          "production": 100,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 50,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 24,
+          "production": 150,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 31,
+          "production": 222,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 160,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 24,
+          "production": 10,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 18,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 66,
+          "production": 535,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 269,
+          "production": 2760,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 950,
+          "production": 310.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 854,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 129,
+          "production": 17,
+          "production_unit": "mt",
+          "small_farmers": 1327
+        },
+        "tea": {
+          "area_ha": 36,
+          "production": 1200,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 3,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 47,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 24,
+          "production": 148,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 31,
+          "production": 220,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 156,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 22,
+          "production": 7,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MAHOTTARI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 339,
+          "production": 1397,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 154,
+          "production": 977,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 101,
+          "production": 1258,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 138,
+          "production": 1534,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 320,
+          "production": 1962,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 150,
+          "production": 960,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 100,
+          "production": 1212,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 130,
+          "production": 1502,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MAKWANPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 73,
+          "production": 427,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 105,
+          "production": 746,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 474,
+          "production": 7158,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 27,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 21,
+          "production": 309,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 38,
+          "production": 0.75,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 31,
+          "production": 177,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 108,
+          "production": 1017,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 73,
+          "production": 449,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 105,
+          "production": 746,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 474,
+          "production": 7158,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 27,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 21,
+          "production": 309,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 32,
+          "production": 0.52,
+          "production_unit": "mt",
+          "small_farmers": 395
+        },
+        "peach": {
+          "area_ha": 32,
+          "production": 170,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 108,
+          "production": 1019,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MANANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 2,
+          "production": 10,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 9,
+          "production": 39,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 1,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 1,
+          "production": 0.32,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 251,
+          "production": 2308,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 3,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 2,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 3,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 5,
+          "production": 7,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 3,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 9,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 2,
+          "production": 9,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2,
+          "production": 0.32,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 255,
+          "production": 1820,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 2,
+          "production": 14,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 5,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 2,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 4,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 5,
+          "production": 5,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MORANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 40,
+          "production": 89,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 475,
+          "production": 2142,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 992,
+          "production": 10912,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 55,
+          "production": 31,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 376,
+          "production": 2294,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 140.8,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 34,
+          "production": 5000,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "production": 0.0,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 9.75,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 25.81,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "production": 0.0,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 40,
+          "production": 249,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 475,
+          "production": 2138,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 991,
+          "production": 10891,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 55,
+          "production": 29,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 375,
+          "production": 2250,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 64.8,
+          "production": 6.437,
+          "production_unit": "mt",
+          "small_farmers": 67
+        },
+        "tea": {
+          "area_ha": 34,
+          "production": 6000,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "production": 0.0,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "production": 0.0,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 0.0,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 27.0,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "production": 0.0,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "production": 0.0,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MUGU": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 15,
+          "production": 90,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 5,
+          "production": 36,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 21,
+          "production": 171,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 1073,
+          "production": 6962,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 24,
+          "production": 96,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 209,
+          "production": 287,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 15,
+          "production": 90,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 5,
+          "production": 36,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 7,
+          "production": 60,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 505,
+          "production": 3488,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 20,
+          "production": 69,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 21,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 212,
+          "production": 313,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MUSTANG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 19,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 17,
+          "production": 171,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 890,
+          "production": 7929,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 11,
+          "production": 66,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 1,
+          "production": 10,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 20,
+          "production": 63,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 33,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 16,
+          "production": 171,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 890,
+          "production": 7330,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 12,
+          "production": 65,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 1,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 27,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 1,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 20,
+          "production": 42,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "MYAGDI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 95,
+          "production": 510,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 28,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 41,
+          "production": 441,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 17,
+          "production": 7.5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 17,
+          "production": 156,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 22,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 18
+        },
+        "apple": {
+          "area_ha": 16,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 45,
+          "production": 240,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 35,
+          "production": 75,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 95,
+          "production": 510,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 28,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 40,
+          "production": 430,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 20,
+          "production": 18.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 16,
+          "production": 140,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 26.25,
+          "production": 5,
+          "production_unit": "mt",
+          "small_farmers": 154
+        },
+        "tea": {
+          "area_ha": 2
+        },
+        "apple": {
+          "area_ha": 16,
+          "production": 32,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 45,
+          "production": 240,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 35,
+          "production": 75,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "NAWALPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 70,
+          "production": 358,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 75,
+          "production": 398,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 742,
+          "production": 8975,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 6,
+          "production": 1.24,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 226,
+          "production": 2305,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 22,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 15,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 5,
+          "production": 44,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 2,
+          "production": 6,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 35,
+          "production": 54,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 33,
+          "production": 146,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 734,
+          "production": 9651,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 68,
+          "production": 53.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 44,
+          "production": 435,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 20,
+          "production": 5,
+          "production_unit": "mt",
+          "small_farmers": 108
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 6,
+          "production": 63,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 2,
+          "production": 8,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "NUWAKOT": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 61,
+          "production": 239,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 90,
+          "production": 546,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 360,
+          "production": 4572,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 121,
+          "production": 89,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 59,
+          "production": 506,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 305,
+          "production": 90.5,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 138,
+          "production": 1000,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 6,
+          "production": 23,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 3,
+          "production": 22,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 48,
+          "production": 437,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 11,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 65,
+          "production": 255,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 82,
+          "production": 504,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 364,
+          "production": 4576,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 115,
+          "production": 86,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 61,
+          "production": 523,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 271.5,
+          "production": 53.84,
+          "production_unit": "mt",
+          "small_farmers": 1142
+        },
+        "tea": {
+          "area_ha": 97,
+          "production": 29350,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 5,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 28,
+          "production": 203,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 50,
+          "production": 437,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 11,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "OKHALDHUNGA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 23,
+          "production": 152,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 84,
+          "production": 1195,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 32,
+          "production": 21,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 18,
+          "production": 119,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 12.5,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 80,
+          "production": 100,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 11,
+          "production": 51,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 12,
+          "production": 62,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 21,
+          "production": 75,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 50,
+          "production": 191,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 3,
+          "production": 1,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 23,
+          "production": 151,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 83,
+          "production": 1184,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 33,
+          "production": 21,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 18,
+          "production": 119,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 9.5,
+          "production": 0.922,
+          "production_unit": "mt",
+          "small_farmers": 23
+        },
+        "tea": {
+          "area_ha": 21
+        },
+        "apple": {
+          "area_ha": 11,
+          "production": 50,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 12,
+          "production": 72,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 21,
+          "production": 75,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 50,
+          "production": 190,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 3
+        }
+      }
+    },
+    "PALPA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 58,
+          "production": 53,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 457,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 1408,
+          "production": 18426,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 4,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 399,
+          "production": 4161,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 145,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 1,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 7,
+          "production": 45,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 13,
+          "production": 108,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 8,
+          "production": 30,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 3,
+          "production": 4,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 80,
+          "production": 233,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 50,
+          "production": 440,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 1350,
+          "production": 16688,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 6,
+          "production": 2,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 106,
+          "production": 1102,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 135,
+          "production": 22,
+          "production_unit": "mt",
+          "small_farmers": 2325
+        },
+        "peach": {
+          "area_ha": 1,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 14,
+          "production": 101,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 11,
+          "production": 53,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 2,
+          "production": 6,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "PANCHTHAR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 18,
+          "production": 35,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 45,
+          "production": 247,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 764,
+          "production": 11345,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3350,
+          "production": 1396,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 52,
+          "production": 421,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 180,
+          "production": 4.5,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 640,
+          "production": 59643,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 23,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 34,
+          "production": 290,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 439,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 23,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 18,
+          "production": 100,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 15,
+          "production": 89,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 45,
+          "production": 247,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 766,
+          "production": 11406,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 3460,
+          "production": 1442,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 51,
+          "production": 418,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 172.5,
+          "production": 5.1,
+          "production_unit": "mt",
+          "small_farmers": 130
+        },
+        "tea": {
+          "area_ha": 677,
+          "production": 8770,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 23,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 34,
+          "production": 290,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 440,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 24,
+          "production": 195,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 18,
+          "production": 99,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "PARASI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 116,
+          "production": 109,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 84,
+          "production": 740,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 45,
+          "production": 546,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 0
+        },
+        "turmeric": {
+          "area_ha": 150,
+          "production": 1619,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 148,
+          "production": 431,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 95,
+          "production": 808,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 105,
+          "production": 1229,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 137,
+          "production": 1302,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "PARBAT": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 23,
+          "production": 101,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 24,
+          "production": 158,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 60,
+          "production": 751,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 62,
+          "production": 18.36,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 21,
+          "production": 210,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 144,
+          "production": 16,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 1
+        },
+        "peach": {
+          "area_ha": 54,
+          "production": 265,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 70,
+          "production": 651,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 16,
+          "production": 109,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 45,
+          "production": 87,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 88,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 28,
+          "production": 174,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 42,
+          "production": 492,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 62,
+          "production": 18.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 23,
+          "production": 225,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 141,
+          "production": 15,
+          "production_unit": "mt",
+          "small_farmers": 1840
+        },
+        "tea": {
+          "area_ha": 1
+        },
+        "peach": {
+          "area_ha": 66,
+          "production": 225,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 70,
+          "production": 627,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 17,
+          "production": 110,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 60,
+          "production": 84,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "PARSA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 243,
+          "production": 955,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 99,
+          "production": 758,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 73,
+          "production": 841,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 122,
+          "production": 1344,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 243,
+          "production": 1490,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 98,
+          "production": 745,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 72,
+          "production": 803,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 124,
+          "production": 1316,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "PYUTHAN": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 27,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 187,
+          "production": 1426,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 486,
+          "production": 6423,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 27,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 334,
+          "production": 4021,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 42.8,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 2
+        },
+        "apple": {
+          "area_ha": 9,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 7,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 27,
+          "production": 132,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 10,
+          "production": 36,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 55,
+          "production": 252,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 16,
+          "production": 23,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 240,
+          "production": 435,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 165,
+          "production": 1368,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 280,
+          "production": 3654,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 20,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 145,
+          "production": 1820,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 40,
+          "production": 11.084,
+          "production_unit": "mt",
+          "small_farmers": 175
+        },
+        "tea": {
+          "area_ha": 2
+        },
+        "apple": {
+          "area_ha": 7,
+          "production": 25,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 27,
+          "production": 134,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 55,
+          "production": 275,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 7,
+          "production": 12,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "RAMECHHAP": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 105,
+          "production": 546,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 78,
+          "production": 419,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 137,
+          "production": 1542,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 103,
+          "production": 54,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 47,
+          "production": 626,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 19,
+          "production": 3.3,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 64,
+          "production": 2000,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 97,
+          "production": 445,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 59,
+          "production": 398,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 62,
+          "production": 515,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 38,
+          "production": 272,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 18,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 104,
+          "production": 536,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 77,
+          "production": 412,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 136,
+          "production": 1529,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 102,
+          "production": 54,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 47,
+          "production": 626,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 11,
+          "production": 1.2,
+          "production_unit": "mt",
+          "small_farmers": 67
+        },
+        "tea": {
+          "area_ha": 64,
+          "production": 2030,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 97,
+          "production": 432,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 59,
+          "production": 390,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 62,
+          "production": 515,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 37,
+          "production": 266,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 18,
+          "production": 43,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "RASUWA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 102,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 117,
+          "production": 930,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 215,
+          "production": 1634,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 11,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 41,
+          "production": 305,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 70,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 142,
+          "production": 688,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 30,
+          "production": 85,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 4,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 2,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 4,
+          "production": 16,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 5,
+          "production": 32,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 25,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 115,
+          "production": 890,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 221,
+          "production": 1786,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 9,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 41,
+          "production": 305,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 59.5,
+          "production": 6.325,
+          "production_unit": "mt",
+          "small_farmers": 85
+        },
+        "apple": {
+          "area_ha": 142,
+          "production": 698,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 30,
+          "production": 80,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 5,
+          "production": 14,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 2,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 3,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 5,
+          "production": 19,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "RAUTAHAT": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 128,
+          "production": 509,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 108,
+          "production": 1031,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 101,
+          "production": 1209,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 218,
+          "production": 2694,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 128,
+          "production": 818,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 110,
+          "production": 1003,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 100,
+          "production": 1200,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 205,
+          "production": 2462,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "ROLPA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 73.2,
+          "production": 68,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 1051,
+          "production": 8064,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 213,
+          "production": 2733,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 36,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 208,
+          "production": 2453,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 2,
+          "production": 0.05,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 303,
+          "production": 1351,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 11,
+          "production": 46,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 42,
+          "production": 233,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 51,
+          "production": 439,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 136,
+          "production": 451,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 176,
+          "production": 131,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 130,
+          "production": 250,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 348,
+          "production": 2395,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 680,
+          "production": 8490,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 72,
+          "production": 29,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 190,
+          "production": 2198,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 1.6,
+          "production": 0.5,
+          "production_unit": "mt",
+          "small_farmers": 20
+        },
+        "apple": {
+          "area_ha": 365,
+          "production": 2219,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 16,
+          "production": 72,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 46,
+          "production": 310,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 88,
+          "production": 721,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 150,
+          "production": 658,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 170,
+          "production": 143,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "RUPANDEHI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 87,
+          "production": 113,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 191,
+          "production": 1203,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 124,
+          "production": 1502,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 0
+        },
+        "turmeric": {
+          "area_ha": 165,
+          "production": 1712,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 90,
+          "production": 205,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 191,
+          "production": 1373,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 137,
+          "production": 1560,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 182,
+          "production": 1889,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SALYAN": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 12,
+          "production": 68,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 150,
+          "production": 1109,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 1420,
+          "production": 20902,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 14,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 256,
+          "production": 2115,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 7.8,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 42,
+          "production": 100,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 82,
+          "production": 482,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 14,
+          "production": 100,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 22,
+          "production": 106,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 10,
+          "production": 12,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 12,
+          "production": 39,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 150,
+          "production": 1109,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 1420,
+          "production": 20902,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 14,
+          "production": 6,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 345,
+          "production": 3574,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 4.8,
+          "small_farmers": 30
+        },
+        "apple": {
+          "area_ha": 15,
+          "production": 100,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 14,
+          "production": 70,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 16,
+          "production": 100,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 22,
+          "production": 82,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 50,
+          "production": 33,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SANKHUWASABHA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 8,
+          "production": 17,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 33,
+          "production": 183,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 151,
+          "production": 1806,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2850,
+          "production": 982,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 52,
+          "production": 312,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 85.75,
+          "production": 7.8,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 106,
+          "production": 6000,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 14,
+          "production": 28,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 6,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 40,
+          "production": 123,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 55,
+          "production": 374,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 128,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 21,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 7,
+          "production": 43,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 33,
+          "production": 182,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 150,
+          "production": 1800,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 2876,
+          "production": 1040,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 52,
+          "production": 312,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 51.5,
+          "production": 8,
+          "production_unit": "mt",
+          "small_farmers": 100
+        },
+        "tea": {
+          "area_ha": 106,
+          "production": 3600,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 14,
+          "production": 31,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 6,
+          "production": 13,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 40,
+          "production": 123,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 55,
+          "production": 374,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 20,
+          "production": 128,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 21,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SAPTARI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 1351,
+          "production": 7075,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 168,
+          "production": 1369,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 152,
+          "production": 1511,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 349,
+          "production": 4074,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 1352,
+          "production": 11478,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 163,
+          "production": 1268,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 155,
+          "production": 1559,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 325,
+          "production": 3578,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SARLAHI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 130,
+          "production": 628,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 42,
+          "production": 400,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 403,
+          "production": 5384,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 207,
+          "production": 1862,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 130,
+          "production": 1053,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 41,
+          "production": 390,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 400,
+          "production": 5240,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 202,
+          "production": 1823,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SINDHULI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 80,
+          "production": 442,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 68,
+          "production": 453,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 705,
+          "production": 8530,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 39,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 155,
+          "production": 1629,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 38,
+          "production": 3.2,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 50
+        },
+        "peach": {
+          "area_ha": 4,
+          "production": 27,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 43,
+          "production": 270,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 3,
+          "production": 16,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 77,
+          "production": 579,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 68,
+          "production": 453,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 665,
+          "production": 8528,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 39,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 155,
+          "production": 1629,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 13.5,
+          "small_farmers": 116
+        },
+        "tea": {
+          "area_ha": 41
+        },
+        "peach": {
+          "area_ha": 4,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 43,
+          "production": 270,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 3,
+          "production": 16,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SINDHUPALCHOK": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 28,
+          "production": 156,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 321,
+          "production": 2915,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 588,
+          "production": 5968,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 176,
+          "production": 76,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 206,
+          "production": 2219,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 148,
+          "production": 18,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 85,
+          "production": 8050,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 44,
+          "production": 161,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 70,
+          "production": 529,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 61,
+          "production": 425,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 45,
+          "production": 260,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 9,
+          "production": 36,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 29,
+          "production": 155,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 316,
+          "production": 2910,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 587,
+          "production": 5946,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 176,
+          "production": 71,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 204,
+          "production": 2213,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 124,
+          "production": 24.8,
+          "production_unit": "mt",
+          "small_farmers": 1916
+        },
+        "tea": {
+          "area_ha": 85,
+          "production": 9550,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 44,
+          "production": 161,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 70,
+          "production": 519,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 61,
+          "production": 425,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 45,
+          "production": 260,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 13,
+          "production": 47,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SIRAHA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 264,
+          "production": 1140,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 125,
+          "production": 830,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 129,
+          "production": 1187,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 176,
+          "production": 1932,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 262,
+          "production": 1803,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 120,
+          "production": 816,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 133,
+          "production": 1238,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 162,
+          "production": 1782,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SOLUKHUMBU": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 14,
+          "production": 76,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 37,
+          "production": 277,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 86,
+          "production": 1230,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 158,
+          "production": 134,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 30,
+          "production": 285,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 61.7,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 78,
+          "production": 1750,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 235,
+          "production": 1387,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 46,
+          "production": 192,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 87,
+          "production": 423,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 47,
+          "production": 281,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 44,
+          "production": 80,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 4,
+          "production": 23,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 38,
+          "production": 191,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 85,
+          "production": 1213,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 158,
+          "production": 117,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 30,
+          "production": 273,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 50,
+          "production": 2.758,
+          "production_unit": "mt",
+          "small_farmers": 34
+        },
+        "tea": {
+          "area_ha": 75,
+          "production": 1150,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 233,
+          "production": 1386,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 4,
+          "production": 20,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 45,
+          "production": 192,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 85,
+          "production": 423,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 47,
+          "production": 281,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 40,
+          "production": 80,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SUNSARI": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 21,
+          "production": 46,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 235,
+          "production": 1475,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 459,
+          "production": 4645,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 8,
+          "production": 3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 461,
+          "production": 2810,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 21,
+          "production": 130,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 230,
+          "production": 1327,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 510,
+          "production": 5284,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 10,
+          "production": 4,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 415,
+          "production": 2324,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SURKHET": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 98,
+          "production": 557,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 121,
+          "production": 1194,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 512,
+          "production": 8125,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 7,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 230,
+          "production": 2431,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 20.5,
+          "production": 1,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 39,
+          "production": 192,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 41,
+          "production": 270,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 17,
+          "production": 137,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 49,
+          "production": 65,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 100,
+          "production": 568,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 120,
+          "production": 1184,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 512,
+          "production": 7101,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 7,
+          "production": 5,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 230,
+          "production": 2431,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 16.5,
+          "production": 0.552,
+          "production_unit": "mt",
+          "small_farmers": 55
+        },
+        "peach": {
+          "area_ha": 39,
+          "production": 192,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 40,
+          "production": 270,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 17,
+          "production": 137,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 49,
+          "production": 70,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "SYANGJA": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 80,
+          "production": 460,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 55,
+          "production": 374,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 600,
+          "production": 6300,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 21,
+          "production": 6.3,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 80,
+          "production": 840,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 377,
+          "production": 33,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 80,
+          "production": 343,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 150,
+          "production": 1100,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 14,
+          "production": 112,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 15,
+          "production": 50,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 105,
+          "production": 630,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 61,
+          "production": 427,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 630,
+          "production": 6615,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 21,
+          "production": 6.99,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 100,
+          "production": 2100,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 369,
+          "production": 28,
+          "production_unit": "mt",
+          "small_farmers": 2785
+        },
+        "apricot": {
+          "area_ha": 1,
+          "production": 9,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 100,
+          "production": 350,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 171,
+          "production": 1200,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 36,
+          "production": 150,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 1,
+          "production": 1,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "TANAHU": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 169,
+          "production": 755,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 180,
+          "production": 952,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 520,
+          "production": 5678,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 4,
+          "production": 2.0,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 168,
+          "production": 1856,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 57,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 55,
+          "production": 465,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 167,
+          "production": 735,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 188,
+          "production": 955,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 524,
+          "production": 5679,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 11,
+          "production": 6.05,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 167,
+          "production": 1845,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 55,
+          "production": 10,
+          "production_unit": "mt",
+          "small_farmers": 576
+        },
+        "pear": {
+          "area_ha": 55,
+          "production": 480,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "TAPLEJUNG": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 10,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 65,
+          "production": 331,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 324,
+          "production": 5145,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 4304,
+          "production": 2539,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 37,
+          "production": 347,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 207,
+          "production": 10.5,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 133,
+          "production": 1000,
+          "production_unit": "kg"
+        },
+        "apricot": {
+          "area_ha": 20,
+          "production": 125,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 150,
+          "production": 806,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 211,
+          "production": 1675,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 90,
+          "production": 303,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 20,
+          "production": 85,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 9,
+          "production": 57,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 63,
+          "production": 320,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 320,
+          "production": 5082,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 4304,
+          "production": 2541,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 35,
+          "production": 339,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 137,
+          "production": 10.25,
+          "production_unit": "mt",
+          "small_farmers": 73
+        },
+        "tea": {
+          "area_ha": 133,
+          "production": 1525,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 35,
+          "production": 132,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 148,
+          "production": 751,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 211,
+          "production": 1644,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 90,
+          "production": 293,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 20,
+          "production": 90,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "TEHRATHUM": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 7,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 19,
+          "production": 74,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 272,
+          "production": 4045,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 715,
+          "production": 285,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 9,
+          "production": 87,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 71.7,
+          "production": 2.3,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 355,
+          "production": 17836,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 29,
+          "production": 131,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 6,
+          "production": 24,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 50,
+          "production": 289,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 95,
+          "production": 795,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 48,
+          "production": 211,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 74,
+          "production": 357,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 25,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 19,
+          "production": 73,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 272,
+          "production": 4066,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 715,
+          "production": 298,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 9,
+          "production": 88,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 56.4,
+          "production": 1.196,
+          "production_unit": "mt",
+          "small_farmers": 92
+        },
+        "tea": {
+          "area_ha": 355,
+          "production": 17000,
+          "production_unit": "kg"
+        },
+        "apple": {
+          "area_ha": 30,
+          "production": 136,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 6,
+          "production": 27,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 50,
+          "production": 287,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 95,
+          "production": 794,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 48,
+          "production": 210,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 75,
+          "production": 360,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "UDAYAPUR": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 6,
+          "production": 9,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 364,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 586,
+          "production": 12013,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 30,
+          "production": 11,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 575,
+          "production": 4140,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 45,
+          "production": 0.45,
+          "production_unit": "mt"
+        },
+        "tea": {
+          "area_ha": 318,
+          "production": 320,
+          "production_unit": "kg"
+        },
+        "peach": {
+          "area_ha": 27,
+          "production": 182,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 29,
+          "production": 216,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 5,
+          "production": 24,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 6,
+          "production": 25,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 52,
+          "production": 369,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 587,
+          "production": 12327,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 34,
+          "production": 17,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 579,
+          "production": 4111,
+          "production_unit": "mt"
+        },
+        "coffee": {
+          "area_ha": 40.3,
+          "production": 0.368,
+          "production_unit": "mt",
+          "small_farmers": 92
+        },
+        "tea": {
+          "area_ha": 318,
+          "production": 345,
+          "production_unit": "kg"
+        },
+        "peach": {
+          "area_ha": 26,
+          "production": 192,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 29,
+          "production": 208,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 5,
+          "production": 24,
+          "production_unit": "mt"
+        }
+      }
+    },
+    "WESTERN RUKUM": {
+      "current": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 9,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 22,
+          "production": 160,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 128,
+          "production": 1308,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 20,
+          "production": 16,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 24,
+          "production": 175,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 13,
+          "production": 80,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 3,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 121,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 8,
+          "production": 38,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 279,
+          "production": 77,
+          "production_unit": "mt"
+        }
+      },
+      "previous": {
+        "dry_chilli": {
+          "area_ha": 5,
+          "production": 19,
+          "production_unit": "mt"
+        },
+        "garlic": {
+          "area_ha": 22,
+          "production": 160,
+          "production_unit": "mt"
+        },
+        "ginger": {
+          "area_ha": 128,
+          "production": 1308,
+          "production_unit": "mt"
+        },
+        "large_cardamom": {
+          "area_ha": 20,
+          "production": 16,
+          "production_unit": "mt"
+        },
+        "turmeric": {
+          "area_ha": 14,
+          "production": 105,
+          "production_unit": "mt"
+        },
+        "apple": {
+          "area_ha": 13,
+          "production": 80,
+          "production_unit": "mt"
+        },
+        "apricot": {
+          "area_ha": 5,
+          "production": 8,
+          "production_unit": "mt"
+        },
+        "peach": {
+          "area_ha": 23,
+          "production": 121,
+          "production_unit": "mt"
+        },
+        "pear": {
+          "area_ha": 4,
+          "production": 12,
+          "production_unit": "mt"
+        },
+        "plum": {
+          "area_ha": 8,
+          "production": 38,
+          "production_unit": "mt"
+        },
+        "walnut": {
+          "area_ha": 281,
+          "production": 208,
+          "production_unit": "mt"
+        }
+      }
+    }
+  },
+  "boundary_only": []
+}
