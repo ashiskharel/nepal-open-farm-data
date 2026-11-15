@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farm book — Nepal field desk</title>
+  <meta name="description" content="District yield from the MoALD yearbooks, a yield and sale log kept on the phone, and Kalimati wholesale prices.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23114627' width='16' height='16' rx='2'/%3E%3Cpath fill='%23f3ecdf' d='M8 13c0-4 3-5 3-8-2 1-3 3-3 4 0-3-2-4-4-4 1 3 2 4 4 8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <a class="skip" href="#forecast">Skip to the yield</a>
+  <header>
+    <h1>Farm book</h1>
+    <p class="lede">Printed district yield, the harvest you type, and the price you got. The bed camera is not attached. Nothing here is uploaded.</p>
+    <nav>
+      <a href="./index.html">Land and crops</a>
+      <a href="./book.html" aria-current="page">Farm book</a>
+      <a href="./robotics.html">Robotics</a>
+    </nav>
+  </header>
+  <main>
+    <p id="status" role="status">Loading…</p>
+    <p id="place-line"></p>
+
+    <section id="forecast">
+      <h2>Yield from the yearbook</h2>
+      <label>Crop · बाली
+        <select id="crop"></select>
+      </label>
+      <div class="actions">
+        <label>Area to apply the district rate
+          <input id="estimate-area" inputmode="decimal" placeholder="Leave blank to skip">
+        </label>
+        <label>Area unit
+          <select id="estimate-unit">
+            <option value="ha">hectare</option>
+            <option value="m2">square metre</option>
+          </select>
+        </label>
+      </div>
+      <div id="forecast-card" class="card"></div>
+    </section>
+
+    <section id="harvest">
+      <h2>Current yield, typed here</h2>
+      <p class="note">This is your measurement. One reading stays beside the district figure. Two readings show the difference only.</p>
+      <form id="yield-form" class="grid">
+        <label>Date
+          <input id="yield-date" type="date" required>
+        </label>
+        <div class="actions">
+          <label>Amount
+            <input id="yield-amount" inputmode="decimal" required>
+          </label>
+          <label>Unit
+            <select id="yield-unit">
+              <option value="kg">kg</option>
+              <option value="mt">tonne</option>
+            </select>
+          </label>
+        </div>
+        <div class="actions">
+          <label>Area
+            <input id="yield-area" inputmode="decimal" placeholder="Optional">
+          </label>
+          <label>Area unit
+            <select id="yield-area-unit">
+              <option value="ha">hectare</option>
+              <option value="m2">square metre</option>
+            </select>
+          </label>
+        </div>
+        <label>Note
+          <input id="yield-note" maxlength="200">
+        </label>
+        <button type="submit">Save this yield on the phone</button>
+      </form>
+      <div id="yield-list"></div>
+    </section>
+
+    <section id="camera">
+      <h2>Approximate yield from the bed</h2>
+      <p class="stamp">Not attached</p>
+      <p>A camera over the bed is not connected. No model is running on this phone, so this page cannot see fruit and cannot estimate kilograms from a picture.</p>
+      <form id="feed-form" class="grid">
+        <label>Camera address, for later
+          <input id="feed-url" type="url" inputmode="url" placeholder="https://…" maxlength="500" autocomplete="off">
+        </label>
+        <button type="submit">Save the address on this phone</button>
+      </form>
+      <p id="feed-line" class="note"></p>
+    </section>
+
+    <section id="sales">
+      <h2>Sales</h2>
+      <p class="note">Local-market and shop prices are the numbers you type. Kalimati is the Kathmandu wholesale reference when a lot matches.</p>
+      <form id="sale-form" class="grid">
+        <label>Date
+          <input id="sale-date" type="date" required>
+        </label>
+        <label>Where it was sold
+          <select id="sale-channel">
+            <option value="wholesale">Wholesale yard</option>
+            <option value="haat">Local haat</option>
+            <option value="shop">Shop or store</option>
+          </select>
+        </label>
+        <label>Buyer, if you want the name kept
+          <input id="sale-buyer" maxlength="120" autocomplete="off">
+        </label>
+        <div class="actions">
+          <label>Quantity
+            <input id="sale-quantity" inputmode="decimal" required>
+          </label>
+          <label>Unit
+            <select id="sale-unit">
+              <option value="kg">kg</option>
+              <option value="mt">tonne</option>
+              <option value="piece">piece</option>
+            </select>
+          </label>
+        </div>
+        <label>Price, NPR per unit
+          <input id="sale-price" inputmode="decimal" required>
+        </label>
+        <button type="submit">Save this sale on the phone</button>
+      </form>
+      <div id="sale-compare" class="card"></div>
+      <div id="sale-list"></div>
+    </section>
+
+    <section id="prices">
+      <h2>Kalimati wholesale today</h2>
+      <p class="note">Read live from the Kalimati market committee. Kathmandu wholesale NPR. Not stored in this project.</p>
+      <button type="button" id="reload-prices">Read Kalimati prices again</button>
+      <div id="price-list" class="card"></div>
+    </section>
+
+    <section id="buyers">
+      <h2>Wholesale yards</h2>
+      <p class="note">Federal agricultural market committees, plus Kalimati and Balaju. A yard in another district is still listed. Contact names and phone numbers stay on the official page.</p>
+      <div id="market-list"></div>
+      <p><a href="https://caidmp.gov.np/pages/101/48328968/">Private-sector markets</a> are on the same centre's site. This page does not copy their phone numbers.</p>
+    </section>
+
+    <section id="later">
+      <h2>Whole-farm management</h2>
+      <p class="stamp">Not running</p>
+      <p>A full farm book and a model running on this phone are still ahead. Yield, sales, and a camera address stay in this browser. There is no upload server and no on-phone tensor running.</p>
+      <button type="button" id="send-book">Send this farm book<br>पठाउनुहोस्</button>
+    </section>
+  </main>
+  <footer>
+    <p>Yield figures: Ministry of Agriculture and Livestock Development, CC BY 4.0. Kalimati prices: <a href="https://kalimatimarket.gov.np/">Kalimati Fruits and Vegetable Market Development Committee</a>, read live. Wholesale yards: <a href="https://caidmp.gov.np/pages/100/25994053/">federal market committees</a>. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
+  </footer>
+  <script type="module" src="./js/book.js"></script>
+</body>
+</html>

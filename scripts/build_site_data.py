@@ -4,6 +4,10 @@ Writes data/years.csv, site/data/years.json, site/data/district-crops.json,
 and site/data/districts.geojson. The GeoJSON is a simplified copy of the MIT
 district file from https://github.com/Acesmndr/nepal-geojson so a phone can
 load it. Figures are copied from observations.csv. They are not estimated.
+
+Printed yield and productive area are copied beside area and production.
+A tea row has no yield column in the CSV, so the desk divides production by
+total area itself and says so.
 """
 
 from __future__ import annotations
@@ -239,7 +243,7 @@ def load_boundaries(path: Path | None) -> dict:
         return json.loads(response.read().decode("utf-8"))
 
 
-def add_measure(bucket: dict, crop: str, indicator: str, value) -> None:
+def add_measure(bucket: dict, crop: str, indicator: str, value, qa_note: str = "") -> None:
     row = bucket.setdefault(crop, {})
     area_name = AREA_INDICATOR.get(crop, "area_ha")
     prod_name = PROD_INDICATOR.get(crop, "production_mt")
@@ -250,6 +254,13 @@ def add_measure(bucket: dict, crop: str, indicator: str, value) -> None:
         row["production_unit"] = PROD_UNIT.get(crop, "mt")
     elif indicator == "small_farmers" and crop == "coffee":
         row["small_farmers"] = value
+    elif indicator == "productive_area_ha":
+        row["productive_area_ha"] = value
+    elif indicator in {"yield_mt_per_ha", "yield_kg_per_ha"}:
+        row["yield"] = value
+        row["yield_unit"] = "kg/ha" if indicator == "yield_kg_per_ha" else "mt/ha"
+        if qa_note:
+            row["yield_note"] = qa_note
 
 
 def build_stats() -> dict:
@@ -269,15 +280,32 @@ def build_stats() -> dict:
                 continue
             if row["admin_level"] == "national":
                 slot = "current" if row["source_edition_bs"] == "2081/82" else "previous"
-                add_measure(national[slot], crop, row["indicator"], as_number(row["value"]))
+                add_measure(national[slot], crop, row["indicator"], as_number(row["value"]), row["qa_note"])
                 continue
             if row["admin_level"] != "district" or not row["district_as_printed"]:
                 continue
             key = canon(row["district_as_printed"])
             slot = "current" if row["fiscal_year_bs"] == "2081/82" else "previous"
             entry = districts.setdefault(key, {"current": {}, "previous": {}})
-            add_measure(entry[slot], crop, row["indicator"], as_number(row["value"]))
+            add_measure(entry[slot], crop, row["indicator"], as_number(row["value"]), row["qa_note"])
     return {"districts": districts, "national": national, "mushroom": mushroom}
+
+
+def crop_payload(stats: dict) -> dict:
+    public_districts = {}
+    for key, entry in sorted(stats["districts"].items()):
+        public_districts[key] = {
+            "current": entry["current"],
+            "previous": entry["previous"],
+        }
+    return {
+        "current": {"bs": "2081/82", "ad": "2024/25"},
+        "previous": {"bs": "2080/81", "ad": "2023/24"},
+        "national": stats["national"],
+        "mushroom": [stats["mushroom"][key] for key in sorted(stats["mushroom"])],
+        "districts": public_districts,
+        "boundary_only": [],
+    }
 
 
 def write_years(mushroom: dict) -> None:
@@ -372,27 +400,15 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     geo_path = out_dir / "districts.geojson"
     geo_path.write_text(json.dumps(collection, separators=(",", ":")), encoding="utf-8")
-    public_districts = {}
-    for key, entry in sorted(stats["districts"].items()):
-        public_districts[key] = {
-            "current": entry["current"],
-            "previous": entry["previous"],
-        }
-    crop_payload = {
-        "current": {"bs": "2081/82", "ad": "2024/25"},
-        "previous": {"bs": "2080/81", "ad": "2023/24"},
-        "national": stats["national"],
-        "mushroom": [stats["mushroom"][key] for key in sorted(stats["mushroom"])],
-        "districts": public_districts,
-        "boundary_only": extra_note,
-    }
+    payload = crop_payload(stats)
+    payload["boundary_only"] = extra_note
     (out_dir / "district-crops.json").write_text(
-        json.dumps(crop_payload, indent=2) + "\n", encoding="utf-8"
+        json.dumps(payload, indent=2) + "\n", encoding="utf-8"
     )
     write_years(stats["mushroom"])
     print(f"districts {len(features)}")
     print(f"geojson bytes {geo_path.stat().st_size}")
-    print(f"yearbook districts {len(public_districts)}")
+    print(f"yearbook districts {len(payload['districts'])}")
     print(f"boundaries without a crop row {len(extra_note)}")
     return 0
 

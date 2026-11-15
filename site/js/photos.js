@@ -99,7 +99,7 @@ export function renderGallery(container, records, handlers) {
   }
 }
 
-export function buildReport({ place, climate, ranked, mushroom, chemicalNote }) {
+export function buildReport({ place, climate, ranked, mushroom, chemicalNote, bookText }) {
   const lines = ["Nepal field desk"]
   if (place) {
     lines.push(`Place: ${place.lat}, ${place.lon} (${place.source})`)
@@ -134,6 +134,10 @@ export function buildReport({ place, climate, ranked, mushroom, chemicalNote }) 
   lines.push("")
   lines.push(chemicalNote)
   lines.push("Photos stay on the phone until this pack is shared. The share sheet is the send step.")
+  if (bookText) {
+    lines.push("")
+    lines.push(bookText)
+  }
   if (place?.currentLabel) lines.push(`Yearbook year: ${place.currentLabel}`)
   return lines.join("\n")
 }

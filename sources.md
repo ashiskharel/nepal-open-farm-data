@@ -39,4 +39,16 @@ Department of Plant Resources and the Forest Rules govern collection and trade o
 - Network-address lookup, only when the phone's own location is not used: https://www.geojs.io/ and https://ipwho.is/
 - Map embed: OpenStreetMap
 
+## Used by the farm book, not copied into the tables
+
+The farm book reads Kalimati's daily wholesale JSON in the browser. The prices are not stored in this repo. They are Kathmandu wholesale rupees, not a farm-gate price and not a shop price. Tea, coffee, and large cardamom are not in that fruit and vegetable list.
+
+- Kalimati Fruits and Vegetable Market Development Committee: https://kalimatimarket.gov.np/
+- Daily price feed: https://kalimatimarket.gov.np/api/daily-prices/en
+
+Wholesale yards on the farm book are the federal agricultural market committees, plus Kalimati and the Balaju market the Kalimati committee says it operates. The file keeps the place. Chairperson names and phone numbers stay on the official page. Retrieved 2026-11-15.
+
+- Federal committees: https://caidmp.gov.np/pages/100/25994053/
+- Private-sector market list, linked and not copied: https://caidmp.gov.np/pages/101/48328968/
+
 `scripts/build_site_data.py` rebuilds `data/years.csv`, `site/data/years.json`, `site/data/district-crops.json`, and `site/data/districts.geojson` from `data/observations.csv` and the boundary file.

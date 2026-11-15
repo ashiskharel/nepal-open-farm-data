@@ -4,7 +4,7 @@ Open reference tables for a Nepal minifarm: official district statistics where t
 
 The numbers in `data/observations.csv` were read from the text layer of two MoALD yearbooks, *Statistical Information on Nepalese Agriculture* 2080/81 (2023/24) and 2081/82 (2024/25). They were not typed by hand and they were not OCR'd. See [docs/extraction.md](docs/extraction.md). A monthly GitHub Action looks for a newer yearbook on the ministry statistics page and opens a pull request when the extract checks pass.
 
-The field desk is at https://ashiskharel.github.io/nepal-open-farm-data/ . It places a land point, reads elevation, humidity, and sunlight, and ranks crops from the district tables. Photos stay on the phone until they are shared. The robotics page is marked soon to be published: no machine is attached.
+The field desk is at https://ashiskharel.github.io/nepal-open-farm-data/ . It places a land point, reads elevation, humidity, and sunlight, and ranks crops from the district tables. Photos stay on the phone until they are shared. The farm book on the same site shows the printed district yield, keeps a harvest and sale log in the phone browser, and reads Kalimati's daily wholesale prices when the browser can reach them. The bed camera is not attached, and no on-phone model is running. The robotics page is marked soon to be published: no machine is attached.
 
 [Pull request 75](https://github.com/brycejohnston/awesome-agriculture/pull/75) asks to list this dataset under **Datasets → Regional Data → Nepal** in [awesome-agriculture](https://github.com/brycejohnston/awesome-agriculture). The list accepts a link to a dataset with sources and a reuse license. It does not accept pasted crop rows.
 

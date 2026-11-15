@@ -43,7 +43,7 @@ header {
 
 header a { color: #f6f1e6; }
 
-nav { display: flex; gap: 1rem; margin-top: 0.6rem; }
+nav { display: flex; flex-wrap: wrap; gap: 0.8rem 1rem; margin-top: 0.6rem; }
 
 nav a { font-weight: 700; }
 
@@ -127,6 +127,10 @@ fieldset {
 }
 
 .stat { display: flex; justify-content: space-between; gap: 1rem; padding: 0.25rem 0; border-bottom: 1px solid var(--line); }
+
+.lot { padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
+
+.lot p { margin: 0.2rem 0 0; }
 
 .stat-label { color: var(--muted); font-weight: 400; }
 

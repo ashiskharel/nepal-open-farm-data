@@ -84,3 +84,35 @@ export function loadFlag(key) {
 export function saveFlag(key, on) {
   localStorage.setItem(key, on ? "yes" : "no")
 }
+
+export const YIELD_KEY = "nepal-field-yields"
+export const SALE_KEY = "nepal-field-sales"
+export const FEED_KEY = "nepal-field-feed"
+
+export function loadRecords(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || "[]")
+    return Array.isArray(value) ? value : []
+  } catch {
+    return []
+  }
+}
+
+export function saveRecords(key, rows) {
+  localStorage.setItem(key, JSON.stringify(rows))
+}
+
+export function loadFeed() {
+  try {
+    const value = JSON.parse(localStorage.getItem(FEED_KEY) || "null")
+    if (!value || typeof value.url !== "string" || !value.url) return null
+    return value
+  } catch {
+    return null
+  }
+}
+
+export function saveFeed(feed) {
+  if (!feed || !feed.url) localStorage.removeItem(FEED_KEY)
+  else localStorage.setItem(FEED_KEY, JSON.stringify(feed))
+}

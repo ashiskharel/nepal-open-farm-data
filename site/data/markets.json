@@ -1,0 +1,149 @@
+{
+  "retrieved": "2026-11-15",
+  "note": "Place names only. Chairperson names, manager names, and phone numbers stay on the official pages.",
+  "federal_source": {
+    "title": "Federal agricultural market committees",
+    "url": "https://caidmp.gov.np/pages/100/25994053/"
+  },
+  "private_source": {
+    "title": "Private-sector markets listed by the same centre",
+    "url": "https://caidmp.gov.np/pages/101/48328968/",
+    "note": "This page does not copy the phone numbers on that list."
+  },
+  "markets": [
+    {
+      "id": "birtamod",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Birtamod, Jhapa",
+      "place_ne": "बिर्तामोड, झापा",
+      "district_id": "JHAPA",
+      "province": "Koshi",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "dharan",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Dharan, Sunsari",
+      "place_ne": "धरान, सुनसरी",
+      "district_id": "SUNSARI",
+      "province": "Koshi",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "dhalkebar",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Dhalkebar, Dhanusha",
+      "place_ne": "ढल्केवर, धनुषा",
+      "district_id": "DHANUSA",
+      "province": "Madhesh",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "lalbandi",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Lalbandi, Sarlahi",
+      "place_ne": "लालबन्दी, सर्लाही",
+      "district_id": "SARLAHI",
+      "province": "Madhesh",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "sindhulimadi",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Sindhulimadi, Sindhuli",
+      "place_ne": "सिन्धुलीमाडी, सिन्धुली",
+      "district_id": "SINDHULI",
+      "province": "Bagmati",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "pokhara",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Pokhara, Kaski",
+      "place_ne": "पोखरा, कास्की",
+      "district_id": "KASKI",
+      "province": "Gandaki",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "kawasoti",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Kawasoti, Nawalparasi",
+      "place_ne": "कावासोती, नवलपरासी",
+      "district_id": "NAWALPUR",
+      "province": "Gandaki",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/",
+      "note": "The committee page prints Nawalparasi. Kawasoti is in Nawalpur, Nawalparasi East."
+    },
+    {
+      "id": "butwal",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Butwal, Rupandehi",
+      "place_ne": "बुटवल, रुपन्देही",
+      "district_id": "RUPANDEHI",
+      "province": "Lumbini",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "kohalpur",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Kohalpur, Banke",
+      "place_ne": "कोहलपुर, बांके",
+      "district_id": "BANKE",
+      "province": "Lumbini",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "bulbule",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Bulbule, Surkhet",
+      "place_ne": "बुलबुले, सुर्खेत",
+      "district_id": "SURKHET",
+      "province": "Karnali",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "attariya",
+      "name_ne": "कृषि बजार व्यवस्थापन समिति",
+      "place": "Attariya, Kailali",
+      "place_ne": "अत्तरिया, कैलाली",
+      "district_id": "KAILALI",
+      "province": "Sudurpashchim",
+      "prices": "none",
+      "source_url": "https://caidmp.gov.np/pages/100/25994053/"
+    },
+    {
+      "id": "kalimati",
+      "name_ne": "कालीमाटी फलफूल तथा तरकारी बजार विकास समिति",
+      "place": "Kalimati, Kathmandu",
+      "place_ne": "कालिमाटी, काठमाडौं",
+      "district_id": "KATHMANDU",
+      "province": "Bagmati",
+      "prices": "daily-wholesale",
+      "price_url": "https://kalimatimarket.gov.np/api/daily-prices/en",
+      "source_url": "https://kalimatimarket.gov.np/",
+      "note": "Daily prices on this page are Kalimati wholesale rupees for Kathmandu. They are not a farm-gate price and not a shop price."
+    },
+    {
+      "id": "balaju",
+      "name_ne": "कृषि उपज बजार बालाजु",
+      "place": "Balaju, Kathmandu",
+      "place_ne": "बालाजु, काठमाडौं",
+      "district_id": "KATHMANDU",
+      "province": "Bagmati",
+      "prices": "none",
+      "source_url": "https://kalimatimarket.gov.np/",
+      "note": "The Kalimati committee says it has operated this market since Asar 2062. This page has no price feed for it."
+    }
+  ]
+}

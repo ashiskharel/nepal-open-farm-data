@@ -1,7 +1,8 @@
 import { adFromBs, climateNotes, formatNumber, rankCrops, yearLabel } from "./advice.js"
 import { findDistrict } from "./geo.js"
 import { buildReport, renderGallery, shrinkPhoto } from "./photos.js"
-import { deletePhoto, listPhotos, loadPlace, markSent, savePhoto, savePlace } from "./store.js"
+import { deletePhoto, listPhotos, loadFeed, loadPlace, loadRecords, markSent, SALE_KEY, savePhoto, savePlace, YIELD_KEY } from "./store.js"
+import { ledgerText } from "./yield.js"
 
 const status = document.querySelector("#status")
 const placeCard = document.querySelector("#place-card")
@@ -453,6 +454,12 @@ async function sendPack() {
     ranked: app.ranked,
     mushroom,
     chemicalNote: app.chemicalNote,
+    bookText: ledgerText({
+      place: app.place,
+      yields: loadRecords(YIELD_KEY),
+      sales: loadRecords(SALE_KEY),
+      feed: loadFeed(),
+    }),
   })
   const files = shareRecords.map(
     (record) => new File([record.blob], `field-${record.id}.jpg`, { type: "image/jpeg" })
