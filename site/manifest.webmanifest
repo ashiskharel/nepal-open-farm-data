@@ -1,0 +1,9 @@
+{
+  "name": "Nepal field desk",
+  "short_name": "Field desk",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3ecdf",
+  "theme_color": "#114627",
+  "lang": "en"
+}

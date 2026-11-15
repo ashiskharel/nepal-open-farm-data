@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#114627">
+  <title>Design an indoor farm — Nepal field desk</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23114627' width='16' height='16' rx='2'/%3E%3Cpath fill='%23f3ecdf' d='M8 13c0-4 3-5 3-8-2 1-3 3-3 4 0-3-2-4-4-4 1 3 2 4 4 8z'/%3E%3C/svg%3E">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body class="app">
+  <a class="skip" href="#room">Skip to the room</a>
+  <header class="appbar">
+    <p class="app-kicker"><a href="./index.html">Nepal field desk</a></p>
+    <h1>Design an indoor farm</h1>
+    <p class="lede">Mark the floor with a box, name the water, and the desk fits beds into that box. Photos stay on this phone.</p>
+  </header>
+  <main id="room">
+    <p id="status" role="status">Loading…</p>
+    <section>
+      <h2>Where is the room?</h2>
+      <div class="actions">
+        <button type="button" id="use-phone">Use this phone's place<br>यो फोनको ठाउँ</button>
+        <button type="button" id="use-saved" class="secondary">Use the land already saved</button>
+      </div>
+      <p id="place-line"></p>
+    </section>
+    <section>
+      <h2>Mark the floor</h2>
+      <p class="note">Take a photo of the room. A box is drawn on it. Drag a new box if the floor is not in the middle. Then type the size of that box in metres.</p>
+      <div class="actions">
+        <label>Width, metres
+          <input id="width-m" inputmode="decimal" placeholder="3">
+        </label>
+        <label>Length, metres
+          <input id="length-m" inputmode="decimal" placeholder="5">
+        </label>
+      </div>
+      <label>Photo of the floor or the land
+        <input id="room-photo" type="file" accept="image/*" capture="environment">
+      </label>
+      <canvas id="marker" class="mark" width="640" height="480"></canvas>
+      <button type="button" id="save-mark">Save this marked photo on the phone</button>
+      <div id="room-gallery"></div>
+    </section>
+    <section>
+      <h2>What should the room do?</h2>
+      <label>Crop or method
+        <select id="method">
+          <option value="mushroom">Cultivated mushroom bags</option>
+          <option value="nursery">Seedling nursery</option>
+          <option value="trays">Leafy trays</option>
+          <option value="racks">Racks of pots</option>
+        </select>
+      </label>
+      <label>Water
+        <select id="water">
+          <option value="tap">Tap in the room</option>
+          <option value="tank">Storage tank</option>
+          <option value="rain">Rain from the roof</option>
+          <option value="stream">Stream or canal outside</option>
+          <option value="carry">I carry water in</option>
+          <option value="none">No water yet</option>
+        </select>
+      </label>
+      <label>What you need the room to do
+        <textarea id="requirement" maxlength="200" placeholder="Family greens, a spawn room, seedlings for one ropani…"></textarea>
+      </label>
+      <button type="button" id="design">Design this room</button>
+      <div id="design-card" class="card"></div>
+    </section>
+  </main>
+  <footer>
+    <p>The sketch uses the metres and the water you entered. Open-Meteo supplies elevation. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
+  </footer>
+  <nav class="dock" aria-label="Desk">
+    <a href="./index.html">Home</a>
+    <a href="./land.html">Land</a>
+    <a href="./disease.html">Disease</a>
+    <a href="./book.html">Yield</a>
+    <a href="./indoor.html" aria-current="page">Indoor</a>
+  </nav>
+  <script type="module" src="./js/indoor.js"></script>
+</body>
+</html>

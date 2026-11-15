@@ -34,7 +34,7 @@ Department of Plant Resources and the Forest Rules govern collection and trade o
 
 ## Used by the field desk, not copied into the tables
 
-- Open-Meteo elevation, current weather, and the previous year's daily archive. No key. https://open-meteo.com/
+- Open-Meteo elevation, current weather, the previous year's daily archive, and a 16-day daily forecast used beside the printed yield. No key. The forecast does not replace a yearbook kilogram figure. https://open-meteo.com/
 - District boundaries, simplified from Acesmndr/nepal-geojson (MIT): https://github.com/Acesmndr/nepal-geojson
 - Network-address lookup, only when the phone's own location is not used: https://www.geojs.io/ and https://ipwho.is/
 - Map embed: OpenStreetMap

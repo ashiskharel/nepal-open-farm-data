@@ -1,5 +1,6 @@
 import { formatNumber, yearLabel } from "./advice.js"
 import { loadFeed, loadPlace, loadRecords, SALE_KEY, saveFeed, saveRecords, YIELD_KEY } from "./store.js"
+import { rowsFromDaily, summarizeDays, yieldWeatherLines } from "./weather.js"
 import {
   PRICE_LOTS,
   atDistrictRate,
@@ -30,6 +31,8 @@ const app = {
   federalUrl: "",
   place: null,
   prices: null,
+  pastDays: [],
+  aheadDays: [],
 }
 
 function say(message) {
@@ -104,6 +107,72 @@ function scopeRows(plant) {
     current: app.stats.national.current[plant.id] || null,
     previous: app.stats.national.previous[plant.id] || null,
   }
+}
+
+function isoDate(date) {
+  return date.toISOString().slice(0, 10)
+}
+
+function renderWeather() {
+  const card = document.querySelector("#weather-card")
+  card.replaceChildren()
+  const plant = selectedPlant()
+  if (!app.place || !Number.isFinite(Number(app.place.lat))) {
+    card.append(el("p", null, "Save a land point on the land page. Weather is read for that point."))
+    return
+  }
+  if (!app.pastDays.length && !app.aheadDays.length) {
+    card.append(el("p", null, "Weather is not loaded yet. The yearbook yield below is unchanged."))
+    return
+  }
+  const scope = plant ? scopeRows(plant) : null
+  const rate = plant && scope ? yearbookRate(plant.id, scope.current) : null
+  const rateLine = rate
+    ? `${plant.en} yearbook rate: ${formatNumber(rate.value)} ${rate.unit}. ${rate.basis}.`
+    : `${plant ? plant.en : "This crop"} has no yield cell for this place. Weather is still listed.`
+  const lines = yieldWeatherLines({
+    cropId: plant?.id || "",
+    rateLine,
+    past: app.pastDays.length ? summarizeDays(app.pastDays) : null,
+    ahead: app.aheadDays.length ? summarizeDays(app.aheadDays) : null,
+    aheadDays: app.aheadDays,
+  })
+  for (const line of lines) card.append(el("p", null, line))
+}
+
+async function loadWeather() {
+  const place = app.place
+  if (!place || !Number.isFinite(Number(place.lat)) || !Number.isFinite(Number(place.lon))) {
+    renderWeather()
+    return
+  }
+  say("Reading Open-Meteo for this land…")
+  const end = new Date()
+  end.setUTCDate(end.getUTCDate() - 1)
+  const start = new Date(end)
+  start.setUTCFullYear(start.getUTCFullYear() - 1)
+  const forecast = new URL("https://api.open-meteo.com/v1/forecast")
+  forecast.searchParams.set("latitude", String(place.lat))
+  forecast.searchParams.set("longitude", String(place.lon))
+  forecast.searchParams.set("daily", "temperature_2m_max,temperature_2m_min,precipitation_sum")
+  forecast.searchParams.set("forecast_days", "16")
+  forecast.searchParams.set("timezone", "auto")
+  const archive = new URL("https://archive-api.open-meteo.com/v1/archive")
+  archive.searchParams.set("latitude", String(place.lat))
+  archive.searchParams.set("longitude", String(place.lon))
+  archive.searchParams.set("start_date", isoDate(start))
+  archive.searchParams.set("end_date", isoDate(end))
+  archive.searchParams.set("daily", "temperature_2m_max,temperature_2m_min,precipitation_sum")
+  archive.searchParams.set("timezone", "auto")
+  const [aheadRes, pastRes] = await Promise.allSettled([
+    fetch(forecast).then((response) => response.json()),
+    fetch(archive).then((response) => response.json()),
+  ])
+  app.aheadDays = aheadRes.status === "fulfilled" ? rowsFromDaily(aheadRes.value.daily) : []
+  app.pastDays = pastRes.status === "fulfilled" ? rowsFromDaily(pastRes.value.daily) : []
+  renderWeather()
+  if (!app.aheadDays.length && !app.pastDays.length) say("Weather could not be read. The yearbook yield is unchanged.")
+  else say("Weather is in. The yield number is still the yearbook figure.")
 }
 
 function renderForecast() {
@@ -302,6 +371,11 @@ function shareText() {
   const plant = selectedPlant()
   const parts = []
   const forecast = document.querySelector("#forecast-card")
+  const weather = document.querySelector("#weather-card")
+  if (weather && weather.innerText) {
+    parts.push("Weather beside the yield:")
+    parts.push(weather.innerText)
+  }
   if (forecast) {
     parts.push("Yearbook yield on screen:")
     parts.push(forecast.innerText)
@@ -442,6 +516,7 @@ async function loadPrices() {
 function bind() {
   document.querySelector("#crop").addEventListener("change", () => {
     renderForecast()
+    renderWeather()
     renderPrices()
     renderSales()
   })
@@ -451,6 +526,7 @@ function bind() {
   document.querySelector("#sale-form").addEventListener("submit", onSaleSubmit)
   document.querySelector("#feed-form").addEventListener("submit", onFeedSubmit)
   document.querySelector("#reload-prices").addEventListener("click", loadPrices)
+  document.querySelector("#read-weather").addEventListener("click", loadWeather)
   document.querySelector("#send-book").addEventListener("click", sendBook)
 }
 
@@ -475,14 +551,16 @@ async function boot() {
       select.append(option)
     }
     renderPlace()
+    renderWeather()
     renderForecast()
     renderYields()
     renderFeed()
     renderSales()
     renderMarkets()
     bind()
-    say("Farm book ready. Prices load from Kalimati next.")
+    say("Yield page ready. Prices and weather load next.")
     await loadPrices()
+    await loadWeather()
   } catch (error) {
     say(error.message || "The farm book could not load.")
   }

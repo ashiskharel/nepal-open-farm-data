@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#114627">
+  <title>Suitable farming — Nepal field desk</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23114627' width='16' height='16' rx='2'/%3E%3Cpath fill='%23f3ecdf' d='M8 13c0-4 3-5 3-8-2 1-3 3-3 4 0-3-2-4-4-4 1 3 2 4 4 8z'/%3E%3C/svg%3E">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body class="app">
+  <a class="skip" href="#land">Skip to the land</a>
+  <header class="appbar">
+    <p class="app-kicker"><a href="./index.html">Nepal field desk</a></p>
+    <h1>Suitable farming</h1>
+    <p class="lede">District figures from the MoALD yearbooks, with the AD year beside every Bikram Sambat year.</p>
+  </header>
+  <main>
+    <p id="status" role="status">Loading…</p>
+
+    <section id="land">
+      <h2>Where is the land?</h2>
+      <div class="actions">
+        <button type="button" id="use-phone">Use this phone's place<br>यो फोनको ठाउँ</button>
+        <button type="button" id="use-network" class="secondary">Use the network address</button>
+      </div>
+      <label>District · जिल्ला
+        <input id="district-search" list="district-list" placeholder="Ilam, Jumla, Kaski…">
+      </label>
+      <datalist id="district-list"></datalist>
+      <button type="button" id="use-district">Use this district</button>
+      <div class="actions">
+        <label>Latitude
+          <input id="lat" inputmode="decimal" placeholder="27.72">
+        </label>
+        <label>Longitude
+          <input id="lon" inputmode="decimal" placeholder="85.32">
+        </label>
+      </div>
+      <button type="button" id="use-coordinates">Use these coordinates</button>
+      <iframe id="map" title="Map of the land point" hidden></iframe>
+      <div id="place-card"></div>
+    </section>
+
+    <section>
+      <div id="climate-card"></div>
+    </section>
+
+    <section>
+      <h2>What fits this land</h2>
+      <p id="bands-note" class="note"></p>
+      <div id="crops"></div>
+      <h2>Under a roof</h2>
+      <div id="indoor"></div>
+      <p>Avocado, fig, and date have import kilograms in the yearbook, not planted hectares, so they are not ranked. Jatamansi, kutki, panchaunle, and yarsagumba are restricted. This desk is not a harvest guide.</p>
+      <p><a href="./disease.html">Verify diseases</a> on the next page. <a href="./indoor.html">Design an indoor farm</a> when the crop is under a roof.</p>
+    </section>
+
+    <section>
+      <h2>Years · वर्ष</h2>
+      <p class="note">2080/81 BS is 2023/24 AD. 2081/82 BS is 2024/25 AD. For these fiscal labels the AD year is the BS year minus 57.</p>
+      <label>Bikram Sambat or AD fiscal year
+        <input id="year-input" inputmode="numeric" placeholder="2081/82">
+      </label>
+      <p id="year-result"></p>
+      <ul id="year-table"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>Figures: Ministry of Agriculture and Livestock Development, copied into this project, CC BY 4.0. District shapes: Acesmndr nepal-geojson, MIT. Weather and elevation: Open-Meteo. Map: OpenStreetMap. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
+  </footer>
+  <nav class="dock" aria-label="Desk">
+    <a href="./index.html">Home</a>
+    <a href="./land.html" aria-current="page">Land</a>
+    <a href="./disease.html">Disease</a>
+    <a href="./book.html">Yield</a>
+    <a href="./indoor.html">Indoor</a>
+  </nav>
+  <script type="module" src="./js/field.js"></script>
+</body>
+</html>

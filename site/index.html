@@ -2,110 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#114627">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Nepal field desk</title>
-  <meta name="description" content="Find a Nepal farm's district, elevation, sunlight, and humidity, then see which yearbook crops fit that land.">
+  <meta name="description" content="A phone desk for Nepal farms: disease checks, suitable crops, yield, and an indoor-room sketch.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23114627' width='16' height='16' rx='2'/%3E%3Cpath fill='%23f3ecdf' d='M8 13c0-4 3-5 3-8-2 1-3 3-3 4 0-3-2-4-4-4 1 3 2 4 4 8z'/%3E%3C/svg%3E">
+  <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./css/app.css">
 </head>
-<body>
-  <a class="skip" href="#land">Skip to the land</a>
-  <header>
-    <h1>Nepal field desk</h1>
-    <p class="lede">District figures from the MoALD yearbooks, with the AD year beside every Bikram Sambat year. Photos stay on this phone until you send them. Yield and sales are in the farm book.</p>
-    <nav>
-      <a href="./index.html" aria-current="page">Land and crops</a>
-      <a href="./book.html">Farm book</a>
-      <a href="./robotics.html">Robotics</a>
-    </nav>
+<body class="app">
+  <a class="skip" href="#choices">Skip to the choices</a>
+  <header class="appbar">
+    <p class="app-kicker">Nepal field desk</p>
+    <h1>Do you want to?</h1>
+    <p class="lede">Four jobs. Photos, yields, and sales stay on this phone.</p>
   </header>
-  <main>
-    <p id="status" role="status">Loading…</p>
-
-    <section id="land">
-      <h2>Where is the land?</h2>
-      <div class="actions">
-        <button type="button" id="use-phone">Use this phone's place<br>यो फोनको ठाउँ</button>
-        <button type="button" id="use-network" class="secondary">Use the network address</button>
-      </div>
-      <label>District · जिल्ला
-        <input id="district-search" list="district-list" placeholder="Ilam, Jumla, Kaski…">
-      </label>
-      <datalist id="district-list"></datalist>
-      <button type="button" id="use-district">Use this district</button>
-      <div class="actions">
-        <label>Latitude
-          <input id="lat" inputmode="decimal" placeholder="27.72">
-        </label>
-        <label>Longitude
-          <input id="lon" inputmode="decimal" placeholder="85.32">
-        </label>
-      </div>
-      <button type="button" id="use-coordinates">Use these coordinates</button>
-      <iframe id="map" title="Map of the land point" hidden></iframe>
-      <div id="place-card"></div>
-    </section>
-
-    <section>
-      <div id="climate-card"></div>
-    </section>
-
-    <section>
-      <h2>What fits this land</h2>
-      <p id="bands-note" class="note"></p>
-      <div id="crops"></div>
-      <h2>Under a roof</h2>
-      <div id="indoor"></div>
-      <p>Avocado, fig, and date have import kilograms in the yearbook, not planted hectares, so they are not ranked. Jatamansi, kutki, panchaunle, and yarsagumba are restricted. This desk is not a harvest guide.</p>
-    </section>
-
-    <section>
-      <h2>Years · वर्ष</h2>
-      <p class="note">2080/81 BS is 2023/24 AD. 2081/82 BS is 2024/25 AD. For these fiscal labels the AD year is the BS year minus 57.</p>
-      <label>Bikram Sambat or AD fiscal year
-        <input id="year-input" inputmode="numeric" placeholder="2081/82">
-      </label>
-      <p id="year-result"></p>
-      <ul id="year-table"></ul>
-    </section>
-
-    <section>
-      <h2>Pictures from the field</h2>
-      <p>Save a photo of the crop, a leaf, the path, or the water. The picture stays in this browser. Naming a disease from the photo needs a vision model, and that call costs money, so it is not turned on. Tick what you can see. The note under the photo is a field check, not a lab result.</p>
-      <p id="chemical-note"></p>
-      <form id="photo-form">
-        <label>Crop
-          <select id="photo-crop"></select>
-        </label>
-        <label>What the picture shows
-          <select id="photo-place">
-            <option value="bed">The bed or the tree</option>
-            <option value="leaf">A leaf or a fruit, up close</option>
-            <option value="path">The path</option>
-            <option value="water">The water source</option>
-            <option value="other">Something else</option>
-          </select>
-        </label>
-        <fieldset>
-          <legend>What you can see</legend>
-          <div id="symptoms"></div>
-        </fieldset>
-        <label>Note
-          <textarea id="photo-note" maxlength="500"></textarea>
-        </label>
-        <label>Photo · फोटो
-          <input id="photo-file" type="file" accept="image/*" capture="environment">
-        </label>
-        <button type="submit">Save photo on this phone</button>
-      </form>
-      <p id="photo-count"></p>
-      <button type="button" id="send-pack">Send this land and its pictures<br>पठाउनुहोस्</button>
-      <div id="gallery"></div>
-    </section>
+  <main id="choices" class="choices">
+    <a class="choice" href="./disease.html">
+      <strong>Verify diseases</strong>
+      <span>रोग हेर्ने · what you can see, not a lab name</span>
+    </a>
+    <a class="choice" href="./land.html">
+      <strong>See what farming is suitable in my land</strong>
+      <span>यो जमिनमा के उपयुक्त · district figures and elevation</span>
+    </a>
+    <a class="choice" href="./book.html">
+      <strong>Predict approx. yields</strong>
+      <span>उत्पादन · yearbook yield, with the weather beside it</span>
+    </a>
+    <a class="choice" href="./indoor.html">
+      <strong>Design an indoor farm</strong>
+      <span>भित्री खेती · mark the floor, then fit beds and water</span>
+    </a>
+    <p class="note"><a href="./robotics.html">Machines</a> are marked soon to be published. None are attached.</p>
   </main>
-  <footer>
-    <p>Figures: Ministry of Agriculture and Livestock Development, copied into this project, CC BY 4.0. District shapes: Acesmndr nepal-geojson, MIT. Weather and elevation: Open-Meteo. Map: OpenStreetMap. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
-  </footer>
-  <script type="module" src="./js/field.js"></script>
+  <nav class="dock" aria-label="Desk">
+    <a href="./index.html" aria-current="page">Home</a>
+    <a href="./land.html">Land</a>
+    <a href="./disease.html">Disease</a>
+    <a href="./book.html">Yield</a>
+    <a href="./indoor.html">Indoor</a>
+  </nav>
 </body>
 </html>

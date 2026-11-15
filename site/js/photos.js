@@ -7,6 +7,10 @@ const PLACE_LABEL = {
   leaf: "Leaf or fruit",
   path: "Path",
   water: "Water source",
+  floor: "Floor",
+  wall: "Wall",
+  roof: "Roof",
+  marked: "Marked floor",
   other: "Other",
 }
 

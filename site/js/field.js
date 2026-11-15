@@ -344,6 +344,7 @@ function useDistrictName(name) {
 }
 
 function fillCrops() {
+  if (!photoCrop || !symptomBox) return
   for (const plant of app.plants) {
     const option = document.createElement("option")
     option.value = plant.id
@@ -393,6 +394,7 @@ function convertYear() {
 }
 
 async function refreshGallery() {
+  if (!gallery || !photoCount) return
   const records = await listPhotos()
   const sent = records.filter((record) => record.sent).length
   photoCount.textContent = `${records.length} on this phone. ${sent} marked sent.`
@@ -521,8 +523,9 @@ function bind() {
     applyPoint({ lat, lon, source: "typed coordinates", detail: "" })
   })
   yearInput.addEventListener("input", convertYear)
-  photoForm.addEventListener("submit", onPhotoSubmit)
-  document.querySelector("#send-pack").addEventListener("click", sendPack)
+  if (photoForm) photoForm.addEventListener("submit", onPhotoSubmit)
+  const send = document.querySelector("#send-pack")
+  if (send) send.addEventListener("click", sendPack)
 }
 
 async function boot() {
@@ -541,7 +544,8 @@ async function boot() {
     app.stats = stats
     app.years = years
     document.querySelector("#bands-note").textContent = crops.bands_note
-    document.querySelector("#chemical-note").textContent = crops.chemical_note
+    const chemical = document.querySelector("#chemical-note")
+    if (chemical) chemical.textContent = crops.chemical_note
     fillDistricts()
     fillCrops()
     renderYearTable()

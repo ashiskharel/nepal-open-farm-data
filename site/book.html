@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Farm book — Nepal field desk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#114627">
+  <title>Predict approx. yields — Nepal field desk</title>
   <meta name="description" content="District yield from the MoALD yearbooks, a yield and sale log kept on the phone, and Kalimati wholesale prices.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23114627' width='16' height='16' rx='2'/%3E%3Cpath fill='%23f3ecdf' d='M8 13c0-4 3-5 3-8-2 1-3 3-3 4 0-3-2-4-4-4 1 3 2 4 4 8z'/%3E%3C/svg%3E">
+  <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./css/app.css">
 </head>
-<body>
+<body class="app">
   <a class="skip" href="#forecast">Skip to the yield</a>
-  <header>
-    <h1>Farm book</h1>
-    <p class="lede">Printed district yield, the harvest you type, and the price you got. The bed camera is not attached. Nothing here is uploaded.</p>
-    <nav>
-      <a href="./index.html">Land and crops</a>
-      <a href="./book.html" aria-current="page">Farm book</a>
-      <a href="./robotics.html">Robotics</a>
-    </nav>
+  <header class="appbar">
+    <p class="app-kicker"><a href="./index.html">Nepal field desk</a></p>
+    <h1>Predict approx. yields</h1>
+    <p class="lede">The number is the printed district yield. Weather sits beside it. Harvests and sales stay on this phone.</p>
   </header>
   <main>
     <p id="status" role="status">Loading…</p>
     <p id="place-line"></p>
+
+    <section id="weather">
+      <h2>Weather beside the yield</h2>
+      <p class="note">Open-Meteo supplies the recent year and the coming 16 days. Those counts do not create a new kilogram figure.</p>
+      <button type="button" id="read-weather">Read weather for the saved land</button>
+      <div id="weather-card" class="card"></div>
+    </section>
 
     <section id="forecast">
       <h2>Yield from the yearbook</h2>
@@ -152,8 +157,15 @@
     </section>
   </main>
   <footer>
-    <p>Yield figures: Ministry of Agriculture and Livestock Development, CC BY 4.0. Kalimati prices: <a href="https://kalimatimarket.gov.np/">Kalimati Fruits and Vegetable Market Development Committee</a>, read live. Wholesale yards: <a href="https://caidmp.gov.np/pages/100/25994053/">federal market committees</a>. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
+    <p>Yield figures: Ministry of Agriculture and Livestock Development, CC BY 4.0. Weather: Open-Meteo. Kalimati prices: <a href="https://kalimatimarket.gov.np/">Kalimati Fruits and Vegetable Market Development Committee</a>, read live. Wholesale yards: <a href="https://caidmp.gov.np/pages/100/25994053/">federal market committees</a>. <a href="https://github.com/ashiskharel/nepal-open-farm-data">Source repository</a>.</p>
   </footer>
+  <nav class="dock" aria-label="Desk">
+    <a href="./index.html">Home</a>
+    <a href="./land.html">Land</a>
+    <a href="./disease.html">Disease</a>
+    <a href="./book.html" aria-current="page">Yield</a>
+    <a href="./indoor.html">Indoor</a>
+  </nav>
   <script type="module" src="./js/book.js"></script>
 </body>
 </html>
