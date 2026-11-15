@@ -1,0 +1,80 @@
+source_edition_bs,check,crop,place,status,detail
+2080/81,rows_written,coffee,,ok,170
+2080/81,rows_written,tea,,ok,212
+2080/81,rows_written,cultivated_mushroom,,ok,26
+2080/81,spice_yield_identity,dry_chilli,TERHATHUM,review,printed yield 5.55 does not match production/area 5 (gap 0.55)
+2080/81,spice_yield_identity,large_cardamom,Koshi,review,printed yield 1 does not match production/area 0.5271134593993325917686318131 (gap 0.4728865406006674082313681869)
+2080/81,spice_yield_identity,large_cardamom,CHITWAN,review,printed yield 0.40 does not match production/area 0 (gap 0.40)
+2080/81,spice_yield_identity,ginger,MANANG,review,printed yield 5 does not match production/area 4.5 (gap 0.5)
+2080/81,spice_yield_identity,dry_chilli,MUSTANG,review,printed yield 5.25 does not match production/area 8.25 (gap 3.00)
+2080/81,spice_yield_identity,dry_chilli,LAMJUNG,review,printed yield 5.12 does not match production/area 1 (gap 4.12)
+2080/81,spice_yield_identity,dry_chilli,NAWALPARASI EAST,review,printed yield 4.54 does not match production/area 1.542857142857142857142857143 (gap 2.997142857142857142857142857)
+2080/81,spice_yield_identity,dry_chilli,ARGHAKHANCHI,review,printed yield 1.13 does not match production/area 1.25 (gap 0.12)
+2080/81,spice_yield_identity,large_cardamom,Karnali,review,printed yield 3.51 does not match production/area 0.6125 (gap 2.8975)
+2080/81,spice_yield_identity,large_cardamom,BAJHANG,review,printed yield 0.91 does not match production/area 0.5 (gap 0.41)
+2080/81,spice_yield_identity,large_cardamom,DARCHULA,review,printed yield 1.50 does not match production/area 1.666666666666666666666666667 (gap 0.166666666666666666666666667)
+2080/81,spice_yield_identity,large_cardamom,ACHHAM,review,printed yield 1.18 does not match production/area 1 (gap 0.18)
+2080/81,spice_yield_identity,large_cardamom,DADELDHURA,review,printed yield 0.89 does not match production/area 1 (gap 0.11)
+2080/81,spice_yield_identity,large_cardamom,KAILALI,review,printed yield 0.75 does not match production/area 0.5 (gap 0.25)
+2080/81,rows_written,spices,,ok,1267
+2080/81,fruit_yield_identity,apple,Sankhuwashava,review,printed yield 5.60 does not match production/area 5.166666666666666666666666667 (gap 0.433333333333333333333333333)
+2080/81,fruit_yield_identity,walnut,Sankhuwashava,review,printed yield 3.75 does not match production/area 3.5 (gap 0.25)
+2080/81,fruit_yield_identity,apricot,Sankhuwashava,review,printed yield 3.50 does not match production/area 3.25 (gap 0.25)
+2080/81,fruit_yield_identity,apple,Khotang,review,printed yield 3.73 does not match production/area 4 (gap 0.27)
+2080/81,fruit_yield_identity,plum,Udayapur,review,printed yield 9.46 does not match production/area 8 (gap 1.46)
+2080/81,fruit_yield_identity,peach,Koshi,review,printed yield 6.44 does not match production/area 6.846889952153110047846889952 (gap 0.406889952153110047846889952)
+2080/81,fruit_yield_identity,apple,Dolakha,review,printed yield 2.50 does not match production/area 2.666666666666666666666666667 (gap 0.166666666666666666666666667)
+2080/81,fruit_yield_identity,walnut,Lamjung,review,printed yield 2.81 does not match production/area 3.5 (gap 0.69)
+2080/81,fruit_yield_identity,peach,Kaski,review,printed yield 4.69 does not match production/area 5 (gap 0.31)
+2080/81,fruit_yield_identity,pear,Mustang,review,printed yield 11.82 does not match production/area 9 (gap 2.82)
+2080/81,fruit_yield_identity,peach,Mustang,review,printed yield 8.50 does not match production/area 6 (gap 2.50)
+2080/81,fruit_yield_identity,plum,Mustang,review,printed yield 10.00 does not match production/area 7 (gap 3.00)
+2080/81,fruit_yield_identity,apricot,Mustang,review,printed yield 12.47 does not match production/area 13 (gap 0.53)
+2080/81,fruit_yield_identity,pear,Nawalparasi East,review,printed yield 11.08 does not match production/area 10.5 (gap 0.58)
+2080/81,fruit_yield_identity,plum,Nawalparasi East,review,printed yield 6.00 does not match production/area 8 (gap 2.00)
+2080/81,fruit_yield_identity,walnut,PALPA,review,printed yield 2.75 does not match production/area 3 (gap 0.25)
+2080/81,fruit_yield_identity,apricot,ARGHAKHANCHI,review,printed yield 6 does not match production/area 5.5 (gap 0.5)
+2080/81,fruit_yield_identity,apricot,Rukum West,review,printed yield 3.75 does not match production/area 4 (gap 0.25)
+2080/81,fruit_yield_identity,plum,Achham,review,printed yield 5.67 does not match production/area 5.285714285714285714285714286 (gap 0.384285714285714285714285714)
+2080/81,rows_written,winter_fruits,,ok,1276
+2081/82,coffee_yield_identity,coffee,KoShi,review,printed yield 74.1 does not match production_mt*1000/area 74.35158501440922190201729107
+2081/82,coffee_yield_identity,coffee,BAgmAti,review,printed yield 185.3 does not match production_mt*1000/area 185.0443599493029150823827630
+2081/82,coffee_yield_identity,coffee,lumBini,review,printed yield 91.4 does not match production_mt*1000/area 91.04258443465491923641703377
+2081/82,coffee_yield_identity,coffee,KArnAli,review,printed yield 60.9 does not match production_mt*1000/area 67.72009029345372460496613995
+2081/82,coffee_yield_identity,coffee,SudurPASchim,review,printed yield 7.8 does not match production_mt*1000/area 7.50
+2081/82,rows_written,coffee,,ok,156
+2081/82,tea_part_sum,tea,BAGLUNG,review,"area parts sum to 18, printed total 17"
+2081/82,tea_part_sum,tea,OKHALDHUNGA,review,"area parts sum to 21, printed total 80"
+2081/82,tea_part_sum,tea,MYAGDI,review,"area parts sum to 2, printed total 18"
+2081/82,tea_part_sum,tea,PYUTHAN,review,"area parts sum to 0, printed total 2"
+2081/82,tea_part_sum,tea,total,review,"area parts sum to 20525.16, printed total 20602"
+2081/82,rows_written,tea,,ok,207
+2081/82,rows_written,cultivated_mushroom,,ok,30
+2081/82,spice_yield_identity,dry_chilli,ILLAM,review,printed yield 2.12 does not match production/area 2 (gap 0.12)
+2081/82,spice_yield_identity,dry_chilli,TERHATHUM,review,printed yield 1.53 does not match production/area 1.4 (gap 0.13)
+2081/82,spice_yield_identity,dry_chilli,MUSTANG,review,printed yield 4.50 does not match production/area 4.75 (gap 0.25)
+2081/82,spice_yield_identity,large_cardamom,BAJURA,review,printed yield 0.83 does not match production/area 0.5 (gap 0.33)
+2081/82,spice_yield_identity,large_cardamom,DARCHULA,review,printed yield 1.50 does not match production/area 1.666666666666666666666666667 (gap 0.166666666666666666666666667)
+2081/82,rows_written,spices,,ok,1258
+2081/82,fruit_yield_identity,walnut,SANKHUWASHAVA,review,printed yield 3.75 does not match production/area 3.5 (gap 0.25)
+2081/82,fruit_yield_identity,apple,KHOTANG,review,printed yield 3.73 does not match production/area 4 (gap 0.27)
+2081/82,fruit_yield_identity,walnut,OKHALDHUNGA,review,printed yield 0.50 does not match production/area 1 (gap 0.50)
+2081/82,fruit_yield_identity,peach,MORANG,review,printed yield 6.50 does not match production/area 4.875 (gap 1.625)
+2081/82,fruit_yield_identity,apple,DOLAKHA,review,printed yield 2.50 does not match production/area 2.666666666666666666666666667 (gap 0.166666666666666666666666667)
+2081/82,fruit_yield_identity,walnut,MANANG,review,printed yield 3.30 does not match production/area 3.5 (gap 0.20)
+2081/82,fruit_yield_identity,pear,MUSTANG,review,printed yield 12.00 does not match production/area 10 (gap 2.00)
+2081/82,fruit_yield_identity,apple,LAMJUNG,review,printed yield 8.33 does not match production/area 4 (gap 4.33)
+2081/82,fruit_yield_identity,peach,KASKI,review,printed yield 4.69 does not match production/area 5 (gap 0.31)
+2081/82,fruit_yield_identity,walnut,PALPA,review,printed yield 2.82 does not match production/area 2 (gap 0.82)
+2081/82,fruit_yield_identity,peach,PALPA,review,printed yield 7.08 does not match production/area 7.5 (gap 0.42)
+2081/82,fruit_yield_identity,peach,ARGHAKHANCHI,review,printed yield 7.60 does not match production/area 7 (gap 0.60)
+2081/82,fruit_yield_identity,apple,PYUTHAN,review,printed yield 3.59 does not match production/area 4 (gap 0.41)
+2081/82,fruit_yield_identity,apple,DADELDHURA,review,printed yield 5.20 does not match production/area 4.333333333333333333333333333 (gap 0.866666666666666666666666667)
+2081/82,fruit_yield_identity,apricot,SANKHUWASHAVA,review,printed yield 3.50 does not match production/area 3.25 (gap 0.25)
+2081/82,fruit_yield_identity,apricot,MUSTANG,review,printed yield 12.00 does not match production/area 11 (gap 1.00)
+2081/82,fruit_yield_identity,plum,PALPA,review,printed yield 6.69 does not match production/area 6 (gap 0.69)
+2081/82,fruit_yield_identity,apricot,ARGHAKHANCHI,review,printed yield 6 does not match production/area 6.5 (gap 0.5)
+2081/82,fruit_yield_identity,apricot,RUKUM WEST,review,printed yield 3.75 does not match production/area 4 (gap 0.25)
+2081/82,fruit_yield_identity,apricot,DARCHULA,review,printed yield 7.57 does not match production/area 6.75 (gap 0.82)
+2081/82,fruit_yield_identity,apricot,DADELDHURA,review,printed yield 5.80 does not match production/area 5 (gap 0.80)
+2081/82,rows_written,winter_fruits,,ok,1284

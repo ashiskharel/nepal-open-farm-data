@@ -1,0 +1,43 @@
+plant_id,common_name_en,common_name_ne,scientific_name,group,yearbook,where_to_look,notes
+coffee,Coffee,कफी,Coffea arabica,beverage,district_table,data/observations.csv,Table 2.8. Yield is kg of green bean per hectare. The yearbook does not print the species; commercial planting in Nepal is arabica. The 2081/82 table has no small-farmer column.
+tea,Tea,चिया,Camellia sinensis,beverage,district_table,data/observations.csv,Table 2.9. Orthodox and CTC are separate production columns. Blank production cells are omitted rather than stored as zero.
+apple,Apple,स्याउ,Malus domestica,temperate_fruit,district_table,data/observations.csv,Table 6.3. Yield is tonnes per hectare of productive area. Nepal also imports fresh apples; see trade_lines.csv.
+pear,Pear,नास्पाती,Pyrus communis,temperate_fruit,district_table,data/observations.csv,Table 6.3. Included because it sits in the same winter-fruit block as apple and plum. Species is not printed in the table.
+walnut,Walnut,ओखर,Juglans regia,temperate_fruit,district_table,data/observations.csv,Table 6.3. Same winter-fruit block.
+peach,Peach,आरू,Prunus persica,temperate_fruit,district_table,data/observations.csv,Table 6.3. Peach is a different column from plum.
+plum,Plum,आरुबखडा,Prunus salicina,temperate_fruit,district_table,data/observations.csv,Table 6.3 column Plum. The yearbook does not print the species. Japanese plum is the usual orchard tree; this is not hog plum in Table 6.4.
+apricot,Apricot,खुर्पानी,Prunus armeniaca,temperate_fruit,district_table,data/observations.csv,Table 6.3. Local spelling of the Nepali name varies.
+large_cardamom,Large cardamom,अलैंची,Amomum subulatum,spice,district_table,data/observations.csv,Table 2.13. This is Nepal's alaichi. It is not green cardamom (Elettaria cardamomum). Yield uses productive area.
+green_cardamom,Green cardamom,सुकमेल,Elettaria cardamomum,spice,absent,data/plants.csv,A different species from the MoALD large-cardamom column. No area or production row in this yearbook.
+ginger,Ginger,अदुवा,Zingiber officinale,spice,district_table,data/observations.csv,Table 2.13. Same spice block as large cardamom.
+garlic,Garlic,लसुन,Allium sativum,spice,district_table,data/observations.csv,Table 2.13.
+turmeric,Turmeric,बेसार,Curcuma longa,spice,district_table,data/observations.csv,Table 2.13. Also used as a medicinal rhizome.
+dry_chilli,Dry chilli,खुर्सानी,Capsicum spp.,spice,district_table,data/observations.csv,Table 2.13. Species and variety are not printed. Akabare and other types are inside this column if the district office reported them as dry chilli.
+cultivated_mushroom,Cultivated mushroom,च्याउ,,cultivated_fungus,national_series,data/observations.csv,Table 2.11 fresh production and spawn bottles. The series printed in the 2080/81 book stops at 2022/23. Button oyster and shiitake are not split.
+wild_fungi,Wild fungi,जङ्गली च्याउ,,wild_fungus,absent,data/plants.csv,"Not a plantation statistic. MoALD does not publish a district harvest table for wild mushrooms. This row is not an edibility list. Identification belongs with a mycologist; Nepal has many poisonous species."
+avocado,Avocado,एभोकाडो,Persea americana,fruit,import_only,data/trade_lines.csv,No production table in this yearbook. Table 11.2 records fresh or dried avocado imports. Do not treat import kilograms as area planted.
+fig,Fig,अञ्जीर,Ficus carica,fruit,import_only,data/trade_lines.csv,No production table. Table 11.2 has fresh figs and other figs under the name Anjir.
+date,Date,खजूर,Phoenix dactylifera,fruit,import_only,data/trade_lines.csv,No production table. Table 11.2 has fresh dates and dried dates.
+aloe,Aloe vera,घृतकुमारी,Aloe vera,medicinal,absent,data/plants.csv,Searched the 2080/81 yearbook text. The letters aloe occur inside the word BUFFALOES and there is no aloe crop table. Area is not filled in here.
+timur,Timur,टिमुर,Zanthoxylum armatum,medicinal,absent,data/plants.csv,Mid-hill spice and medicinal shrub traded from Nepal. No area or yield in this yearbook.
+tejpat,Tejpat,तेजपात,Cinnamomum tamala,medicinal,absent,data/plants.csv,Bay-leaf relative grown and traded in the hills. No area or yield in this yearbook.
+chiraito,Chiraito,चिराइतो,Swertia chirayita,medicinal,absent,data/plants.csv,Bitter herb of the hills. Cultivation has been tried; this file does not copy a production figure.
+kurilo,Kurilo,कुरिलो,Asparagus racemosus,medicinal,absent,data/plants.csv,Prioritised for cultivation research in older Department of Forest notes. No MoALD area in this extract.
+amala,Amala,अमला,Phyllanthus emblica,medicinal,absent,data/plants.csv,One of the triphala fruits. Common in the mid-hills and terai. No MoALD area in this extract.
+harro,Harro,हर्रो,Terminalia chebula,medicinal,absent,data/plants.csv,One of the triphala fruits. No MoALD area in this extract.
+barro,Barro,बर्रो,Terminalia bellirica,medicinal,absent,data/plants.csv,One of the triphala fruits. No MoALD area in this extract.
+bojho,Bojho,बोझो,Acorus calamus,medicinal,absent,data/plants.csv,Rhizome used in Ayurvedic practice. No MoALD area in this extract.
+gurjo,Gurjo,गुर्जो,Tinospora sinensis,medicinal,absent,data/plants.csv,Older trade lists often say Tinospora cordifolia. Confirm the species against a specimen before publishing a flora record.
+lemongrass,Lemongrass,लेमनग्रास,Cymbopogon flexuosus,medicinal,absent,data/plants.csv,Essential-oil grass grown on contract in the terai and inner terai. No MoALD area in this extract.
+mentha,Mentha,पुदिना,Mentha arvensis,medicinal,absent,data/plants.csv,Essential-oil mint. No MoALD area in this extract.
+chamomile,Chamomile,क्यामोमाइल,Matricaria chamomilla,medicinal,absent,data/plants.csv,Introduced essential-oil herb grown on some farms. No MoALD area in this extract.
+tulsi,Tulsi,तुलसी,Ocimum tenuiflorum,medicinal,absent,data/plants.csv,Common homegarden plant. No MoALD area in this extract.
+neem,Neem,नीम,Azadirachta indica,medicinal,absent,data/plants.csv,Terai tree. No MoALD area in this extract.
+rittha,Rittha,रिठ्ठा,Sapindus mukorossi,medicinal,absent,data/plants.csv,Soapnut tree. Cultivation is reported in horticulture notes. No MoALD area in this extract.
+seabuckthorn,Seabuckthorn,डालेचुक,Hippophae salicifolia,medicinal,absent,data/plants.csv,High-hill shrub. Local names vary. No MoALD area in this extract.
+stevia,Stevia,स्टेभिया,Stevia rebaudiana,medicinal,absent,data/plants.csv,Introduced sweetener crop. Contract planting has been reported. No MoALD area in this extract.
+jatamansi,Jatamansi,जटामसी,Nardostachys jatamansi,regulated_medicinal,absent,data/plants.csv,High-mountain plant. Collection and export are restricted and it is CITES-listed. This catalog is not permission to harvest or plant it for trade.
+kutki,Kutki,कुट्की,Neopicrorhiza scrophulariiflora,regulated_medicinal,absent,data/plants.csv,High-mountain plant under collection and trade controls. Confirm the current Forest Rules and CITES status before any farm or trade plan.
+panchaunle,Panchaunle,पाँचऔंले,Dactylorhiza hatagirea,regulated_medicinal,absent,data/plants.csv,Orchid. Collection and trade are restricted. This catalog is not a harvest guide.
+yarsagumba,Yarsagumba,यार्सागुम्बा,Ophiocordyceps sinensis,regulated_fungus,absent,data/plants.csv,Not a plantation crop. Collection is regulated. No harvest method is included here.
+kiwi,Kiwi,किवी,Actinidia spp.,temperate_fruit,present_not_extracted,,"Table 6.4 of the same yearbook has a kiwi column with persimmon pomegranate and hog plum. Those cells are not in observations.csv yet."

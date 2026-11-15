@@ -1,0 +1,83 @@
+flow,source_table,pdf_page,fiscal_year_bs,fiscal_year_ad,hs_code,description,quantity,quantity_unit,value_npr_thousand
+export,Table 11.1,178,2080/81,2023/24,07095100,"Mushrooms of the genus agaricus, fresh or chilled",1962,Kg,1123
+export,Table 11.1,178,2080/81,2023/24,07095900,Other mushrooms or truffles fresh or chilled,170,Kg,45
+export,Table 11.1,179,2080/81,2023/24,07115100,"Mushrooms of the genus Agaricus provisionally preserved,not for immediate consumption",2,Kg,5
+export,Table 11.1,179,2080/81,2023/24,07123100,Dried mushrooms of the genus Agaricus,408,Kg,307
+export,Table 11.1,179,2080/81,2023/24,07123900,Other dried mushrooms and truffles,3508,Kg,1026
+export,Table 11.1,180,2080/81,2023/24,08094000,"Plums and sloes, fresh",661,Kg,643
+export,Table 11.1,180,2080/81,2023/24,09011100,"Coffee, not roasted, not decaffeinated",74727,Kg,121595
+export,Table 11.1,180,2080/81,2023/24,09011200,"Decaffeinated coffee, not roasted",13901,Kg,27537
+export,Table 11.1,181,2080/81,2023/24,09012100,"Roasted coffee, not decaffeinated",27,Kg,43
+export,Table 11.1,181,2080/81,2023/24,09019000,"Coffee husks and skins,coffee substitutes containing coffee in any proportion",201,Kg,76
+export,Table 11.1,181,2080/81,2023/24,09021000,"Green tea,whether or not flavoured, in immidiate packings of content <=3kg",26600,Kg,43461
+export,Table 11.1,181,2080/81,2023/24,09022000,"Green tea,whether or not flavoured, nes",121763,Kg,226005
+export,Table 11.1,181,2080/81,2023/24,09023000,"Black tea(fermented)&partly fermented,whether or not flavoured,in packings of <=3kg",23191,Kg,13653
+export,Table 11.1,181,2080/81,2023/24,09024000,Other black tea (fermented) and other partly fermented tea,13744480,Kg,3341893
+import,Table 11.2,193,2080/81,2023/24,07095100,"Mushrooms of the genus agaricus, fresh or chilled",82333,Kg,27264
+import,Table 11.2,193,2080/81,2023/24,07095900,Other mushrooms or truffles fresh or chilled,6088,Kg,1811
+import,Table 11.2,193,2080/81,2023/24,07115900,"Other mushrooms and truffles provisionally preserved, not for immediate consumption",5760,Kg,1366
+import,Table 11.2,193,2080/81,2023/24,07123100,Dried mushrooms of the genus Agaricus,2478,Kg,5170
+import,Table 11.2,193,2080/81,2023/24,07123900,Other dried mushrooms and truffles,19590,Kg,10382
+import,Table 11.2,195,2080/81,2023/24,08041010,Dates fresh,7353,Kg,799
+import,Table 11.2,195,2080/81,2023/24,08041020,Dates Dried,3685,Kg,609
+import,Table 11.2,195,2080/81,2023/24,08042010,"Figs, (Anjir) fresh only",925,Kg,605
+import,Table 11.2,195,2080/81,2023/24,08042090,"Other Figs, (Anjir)",50236,Kg,31913
+import,Table 11.2,196,2080/81,2023/24,08044000,"Avocados, fresh or dried",210676,Kg,94004
+import,Table 11.2,196,2080/81,2023/24,08081000,"Apples, fresh",82145502,Kg,8448933
+import,Table 11.2,196,2080/81,2023/24,08094000,"Plums and sloes, fresh",145953,Kg,5151
+import,Table 11.2,197,2080/81,2023/24,09011100,"Coffee, not roasted, not decaffeinated",332325,Kg,217009
+import,Table 11.2,197,2080/81,2023/24,09012100,"Roasted coffee, not decaffeinated",12559,Kg,14288
+import,Table 11.2,197,2080/81,2023/24,09012200,"Roasted, decaffeinated coffee",97629,Kg,188101
+import,Table 11.2,197,2080/81,2023/24,09019000,"Coffee husks and skins,coffee substitutes containing coffee in any proportion",525,Kg,437
+import,Table 11.2,197,2080/81,2023/24,09021000,"Green tea,whether or not flavoured, in immidiate packings of content <=3kg",4991,Kg,3785
+import,Table 11.2,197,2080/81,2023/24,09022000,"Green tea,whether or not flavoured, nes",1127,Kg,1197
+import,Table 11.2,197,2080/81,2023/24,09023000,"Black tea(fermented)&partly fermented,whether or not flavoured,in packings of <=3kg",3571,Kg,5649
+import,Table 11.2,197,2080/81,2023/24,09024000,Other black tea (fermented) and other partly fermented tea,34630,Kg,27199
+import,Table 11.2,210,2080/81,2023/24,20031000,Mushrooms of the genus Agaricus preserved otherwise by vinegar or autic acid.,262509,Kg,71137
+import,Table 11.2,210,2080/81,2023/24,20039000,Other mushrooms prepared or preserved by vinegar of autic acid nes.,37053,Kg,6417
+import,Table 11.2,212,2080/81,2023/24,21011100,"Extracts, essences and concentrates of coffee",417865,Kg,879668
+import,Table 11.2,212,2080/81,2023/24,21012000,"Extracts, essences, concentrates and preparations of tea or mat",155241,Kg,72180
+export,Table 11.1,190,2081/82,2024/25,07095100,"Mushrooms of the genus agaricus, fresh or chilled",17198,Kg,10139
+export,Table 11.1,190,2081/82,2024/25,07095300,"Mushrooms of the genus Cantharellus, fresh or chilled",587,Kg,274
+export,Table 11.1,190,2081/82,2024/25,07095900,Other mushrooms or truffles fresh or chilled,550,Kg,120
+export,Table 11.1,190,2081/82,2024/25,07123100,Dried mushrooms of the genus Agaricus,500,Kg,2952
+export,Table 11.1,190,2081/82,2024/25,07123900,Other dried mushrooms and truffles,7128,Kg,2074
+export,Table 11.1,190,2081/82,2024/25,08081000,"Apples, fresh",980,Kg,170
+export,Table 11.1,190,2081/82,2024/25,08094000,"Plums and sloes, fresh",393,Kg,272
+export,Table 11.1,191,2081/82,2024/25,09011100,"Coffee, not roasted, not decaffeinated",59349,Kg,108422
+export,Table 11.1,191,2081/82,2024/25,09011200,"Decaffeinated coffee, not roasted",3896,Kg,5010
+export,Table 11.1,191,2081/82,2024/25,09012100,"Roasted coffee, not decaffeinated",711,Kg,920
+export,Table 11.1,191,2081/82,2024/25,09019000,"Coffee husks and skins,coffee substitutes containing coffee in any proportion",42,Kg,17
+export,Table 11.1,191,2081/82,2024/25,09021000,"Green tea,whether or not flavoured, in immidiate packings of content <=3kg",26110,Kg,44626
+export,Table 11.1,191,2081/82,2024/25,09022000,"Green tea,whether or not flavoured, nes",146825,Kg,289543
+export,Table 11.1,191,2081/82,2024/25,09023000,"Black tea(fermented)&partly fermented,whether or not flavoured,in packings of <=3kg",76061,Kg,43773
+export,Table 11.1,191,2081/82,2024/25,09024000,Other black tea (fermented) and other partly fermented tea,15349665,Kg,4212914
+export,Table 11.1,195,2081/82,2024/25,21012000,"Extracts, essences, concentrates and preparations of tea or mat",1588,Kg,301
+export,Table 11.1,195,2081/82,2024/25,21013000,"Roasted coffee substitutes(incl. chicory) and extracts, assences of concentrates",105,Kg,499
+import,Table 11.2,200,2081/82,2024/25,07095100,"Mushrooms of the genus agaricus, fresh or chilled",2262,Kg,671
+import,Table 11.2,200,2081/82,2024/25,07095900,Other mushrooms or truffles fresh or chilled,776,Kg,142
+import,Table 11.2,200,2081/82,2024/25,07123100,Dried mushrooms of the genus Agaricus,9465,Kg,13583
+import,Table 11.2,200,2081/82,2024/25,07123900,Other dried mushrooms and truffles,27438,Kg,12381
+import,Table 11.2,201,2081/82,2024/25,08041010,Dates fresh,17607,Kg,1999
+import,Table 11.2,201,2081/82,2024/25,08041020,Dates Dried,296775,Kg,32363
+import,Table 11.2,201,2081/82,2024/25,08042010,"Figs, (Anjir) fresh only",2200,Kg,1429
+import,Table 11.2,201,2081/82,2024/25,08042090,"Other Figs, (Anjir)",75984,Kg,47408
+import,Table 11.2,201,2081/82,2024/25,08044000,"Avocados, fresh or dried",227382,Kg,95920
+import,Table 11.2,202,2081/82,2024/25,08081000,"Apples, fresh",90253125,Kg,10557569
+import,Table 11.2,202,2081/82,2024/25,08094000,"Plums and sloes, fresh",279165,Kg,10327
+import,Table 11.2,203,2081/82,2024/25,08133000,Dried apples,1,Kg,2
+import,Table 11.2,203,2081/82,2024/25,09011100,"Coffee, not roasted, not decaffeinated",180563,Kg,120788
+import,Table 11.2,203,2081/82,2024/25,09011200,"Decaffeinated coffee, not roasted",78,Kg,100
+import,Table 11.2,203,2081/82,2024/25,09012100,"Roasted coffee, not decaffeinated",20975,Kg,21734
+import,Table 11.2,203,2081/82,2024/25,09012200,"Roasted, decaffeinated coffee",253,Kg,471
+import,Table 11.2,203,2081/82,2024/25,09019000,"Coffee husks and skins,coffee substitutes containing coffee in any proportion",1457,Kg,1026
+import,Table 11.2,203,2081/82,2024/25,09021000,"Green tea,whether or not flavoured, in immidiate packings of content <=3kg",1375,Kg,2682
+import,Table 11.2,203,2081/82,2024/25,09022000,"Green tea,whether or not flavoured, nes",2517,Kg,1298
+import,Table 11.2,203,2081/82,2024/25,09023000,"Black tea(fermented)&partly fermented,whether or not flavoured,in packings of <=3kg",5950,Kg,18714
+import,Table 11.2,203,2081/82,2024/25,09024000,Other black tea (fermented) and other partly fermented tea,103531,Kg,67596
+import,Table 11.2,211,2081/82,2024/25,20031000,Mushrooms of the genus Agaricus preserved otherwise by vinegar or autic acid.,347470,Kg,96502
+import,Table 11.2,211,2081/82,2024/25,20039000,Other mushrooms prepared or preserved by vinegar of autic acid nes.,102777,Kg,25500
+import,Table 11.2,213,2081/82,2024/25,21011100,"Extracts, essences and concentrates of coffee",600537,Kg,1509454
+import,Table 11.2,213,2081/82,2024/25,21012000,"Extracts, essences, concentrates and preparations of tea or mat",122136,Kg,63065
+import,Table 11.2,213,2081/82,2024/25,21013000,"Roasted coffee substitutes(incl. chicory) and extracts, assences of concentrates",21007,Kg,39507
+import,Table 11.2,213,2081/82,2024/25,21069092,Herbal Tea,228,Kg,139

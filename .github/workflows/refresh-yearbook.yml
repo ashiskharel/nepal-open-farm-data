@@ -1,0 +1,65 @@
+name: Refresh government statistics
+
+on:
+  schedule:
+    - cron: "17 2 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the extractor
+        run: python -m pip install -r requirements.txt
+      - name: Check MoALD and PQPMC
+        id: refresh
+        run: python scripts/check_moald.py --out .
+
+      - name: Open a pull request for a new yearbook
+        if: steps.refresh.outputs.status == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="data-${{ steps.refresh.outputs.edition }}"
+          git checkout -B "$branch"
+          git add data docs
+          git diff --cached --quiet && exit 0
+          git commit -m "Update MoALD statistics ${{ steps.refresh.outputs.edition }}"
+          git push --set-upstream origin "$branch"
+          if ! gh pr list --head "$branch" --json number --jq length | grep -qx 0; then
+            exit 0
+          fi
+          gh pr create --title "Update MoALD statistics ${{ steps.refresh.outputs.edition }}" --body "Monthly check of the MoALD agriculture statistics page. The extractor merged a yearbook and kept the previous fiscal years. The government PDF is not stored in this repo."
+
+      - name: Ask for a review when a yearbook does not extract
+        if: steps.refresh.outputs.status == 'needs_review'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing="$(gh issue list --state open --search "yearbook needs a layout check" --json number --jq length)"
+          if [ "$existing" != "0" ]; then
+            exit 0
+          fi
+          gh issue create --title "MoALD yearbook ${{ steps.refresh.outputs.edition }} needs a layout check" --body-file yearbook-review.md
+
+      - name: Ask for a review when the pesticide list changes
+        if: steps.refresh.outputs.pesticide == 'changed'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing="$(gh issue list --state open --search "PQPMC registration list changed" --json number --jq length)"
+          if [ "$existing" != "0" ]; then
+            exit 0
+          fi
+          gh issue create --title "PQPMC registration list changed" --body-file pesticide-review.md
